@@ -1,6 +1,8 @@
 import extract_data as ed
 import matplotlib.cm as cm
 
+# main file for calling the analysis functions
+
 # path_to_data = './m_data/21_10_2016/res_curves/'
 path_to_data = './m_data/24_10_2016/phase_res_curves/withoutDC/'
 
