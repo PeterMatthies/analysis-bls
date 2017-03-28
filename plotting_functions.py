@@ -7,7 +7,7 @@ from mpl_toolkits.mplot3d import Axes3D
 def plot_res_curves_2d(data, m_name, m_date, m_type, show=True, save=False):
     fig1 = plt.figure()
     proper_date = m_date[:2]+'.'+m_date[2:4]+'.'+m_date[4:]
-    title_name = proper_date + ' ' + m_type + '\n' + 'along Py stripe at ' + m_name
+    title_name = proper_date + ' ' + m_name + ' ' + m_type + '\n' + 'along Py stripe'
     fig1.suptitle(title_name, fontweight='bold', fontsize=12)
     ax1 = fig1.add_subplot(111)
     i = 0
@@ -22,9 +22,9 @@ def plot_res_curves_2d(data, m_name, m_date, m_type, show=True, save=False):
     ax1.ticklabel_format(axis='y', style='sci', scilimits=(-3, 3), useOffset=False)
     ax1.yaxis.major.formatter._useMathText = True
     if save:
-        m_name_new = m_name[:1]+'p'+m_name[2:]
-        save_name = m_date + '_' + m_name_new + '_' + m_type + '.png'
-        plt.savefig(save_name, format='png', dpi=100)
+        # m_name_new = m_name[:1]+'p'+m_name[2:]
+        save_name = m_date + '_' + m_name + '_' + m_type + '.png'
+        plt.savefig('./output_pics/'+save_name, format='png', dpi=100)
     if show:
         plt.show()
 
@@ -37,7 +37,8 @@ def plot_res_curves_3d(data, m_name, m_date, m_type, show=True, save=False):
     ax1 = fig1.add_subplot(111, projection='3d')
     i = 0
     colors = cm.rainbow(np.linspace(0, 1, len(data.T) / 2))
-    dc_values = np.arange(20, -5, -5)
+    # dc_values = np.arange(20, -5, -5)
+    dc_values = np.arange(0, 20, 1)
     z_values = []
     for dc_v in dc_values:
         z_values.append([dc_v for k in range(len(data[:, 0]))])
