@@ -17,7 +17,7 @@ def plot_res_curves_2d(data, m_name, m_date, m_type, show=True, save=False):
     ax1 = fig1.add_subplot(111)
     i = 0
     colors = cm.magma(np.linspace(0, 1, len(data.T)/2))
-    real_distance = np.linspace(0, 22.3, 100)
+    real_distance = np.linspace(0, 22.3, 101)
     for i, color in zip(range(0, len(data.T), 2), colors):
         x = data.T[i]
         y = data.T[i+1]
@@ -37,11 +37,11 @@ def plot_res_curves_2d(data, m_name, m_date, m_type, show=True, save=False):
 
         if '00' in m_name:
             guess_amplitude = np.mean(y)  # params[0]
-            guess_decay = 0.01  # params[1]
+            guess_decay = 0.2  # params[1]
             guess_x0 = 1.69  # params[2]
-            guess_wave_number = 0.65  # params[3]
+            guess_wave_number = 0.85 # params[3]
             guess_phase = 4.88  # params[4]
-            guess_y0 = 70000  # params[5]
+            guess_y0 = 10000  # params[5]
             guess_params = np.array([guess_amplitude, guess_decay, guess_x0, guess_wave_number, guess_phase, guess_y0])
 
             decaying_func = lambda params, coord: params[0] * np.exp(-params[1] * coord + params[2]) * \
@@ -49,12 +49,12 @@ def plot_res_curves_2d(data, m_name, m_date, m_type, show=True, save=False):
             errfunc = lambda params, coord, y: decaying_func(params, coord) - y
 
             est_amplitude, est_decay, est_x0, est_wave_number, est_phase, est_y0 = \
-                leastsq(errfunc, guess_params, args=(real_distance[15:91], y[15:91]))[0]
+                leastsq(errfunc, guess_params, args=(real_distance[3:91], y[3:91]))[0]
             fit_params = np.array([est_amplitude, est_decay, est_x0, est_wave_number, est_phase, est_y0])
-            print(fit_params[3])
+            print(fit_params)
             wave_number = fit_params[3]
             wave_length = 2 * np.pi / wave_number
-            x_coord = np.linspace(real_distance[15], real_distance[91], 100)
+            x_coord = np.linspace(real_distance[3], real_distance[91], 1000)
             data_fit = decaying_func(fit_params, x_coord)
             ax1.plot(x_coord, data_fit,
                      label='fit ' + r'$\lambda$' + '=' + "{0:.2f}".format(wave_length) + r'$\mu m$')
