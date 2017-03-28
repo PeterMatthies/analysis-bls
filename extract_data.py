@@ -35,9 +35,9 @@ def extract_data(path_to_data, m_date, m_type):
     print(data_files)
     all_data = []
     for data_file in data_files:
-        data = np.loadtxt(path_to_data+data_file, comments='#', skiprows=1)
+        data = np.loadtxt(path_to_data+data_file, comments='#')
         m_data = MeasurementData(data)
-        m_data.set_name(data_file[:7])
+        m_data.set_name(data_file[:-4])
         m_data.set_date(m_date)
         m_data.set_type(m_type)
         all_data.append(m_data)
