@@ -61,3 +61,13 @@ def plot_res_curves_3d(data, m_name, m_date, m_type, show=True, save=False):
         plt.savefig(save_name, format='png', dpi=100)
     if show:
         plt.show()
+
+
+def plot_raw_data(data, m_name, m_date, m_type, show=True, save=False):
+    plt.imshow(data.T, origin='lower', aspect=0.5, vmin=0, vmax=4000)
+    plt.colorbar()
+    if save:
+        save_name = m_date + '_' + m_name + '_' + m_type + '.png'
+        plt.savefig(save_name, format='png', dpi=100)
+    if show:
+        plt.show()
