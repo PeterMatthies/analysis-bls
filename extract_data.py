@@ -30,7 +30,7 @@ class MeasurementData:
         plot_raw_data(self.data, self.mes_name, self.mes_date, self.mes_type, show, save)
 
 
-def extract_data(path_to_data, m_date, m_type):
+def extract_data_folder(path_to_data, m_date, m_type):
     data_files = [f for f in listdir(path_to_data) if isfile(join(path_to_data, f))]
     print(data_files)
     all_data = []
@@ -42,3 +42,12 @@ def extract_data(path_to_data, m_date, m_type):
         m_data.set_type(m_type)
         all_data.append(m_data)
     return all_data
+
+
+def extract_data_file(path_to_file, m_name, m_date, m_type):
+    data = np.loadtxt(path_to_file, comments='#')
+    m_data = MeasurementData(data)
+    m_data.set_name(m_name)
+    m_data.set_date(m_date)
+    m_data.set_type(m_type)
+    return(m_data)

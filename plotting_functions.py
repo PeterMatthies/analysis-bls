@@ -17,11 +17,13 @@ def plot_res_curves_2d(data, m_name, m_date, m_type, show=True, save=False):
     ax1 = fig1.add_subplot(111)
     i = 0
     colors = cm.magma(np.linspace(0, 1, len(data.T)/2))
-    real_distance = np.linspace(1, 22.3, 100)
+    real_distance = np.linspace(0, 22.3, 100)
+    print(real_distance[30])
     for i, color in zip(range(0, len(data.T), 2), colors):
         x = data.T[i]
         y = data.T[i+1]
-
+        print(x)
+        print(len(x))
         # plotting the data
         ax1.scatter(real_distance, y, c=color, label='data')
 
@@ -31,6 +33,7 @@ def plot_res_curves_2d(data, m_name, m_date, m_type, show=True, save=False):
         x_line = np.array([real_distance[30] for i in range(len(y_line))])
         print(real_distance)
         ax1.plot(x_line, y_line, linestyle='--', color='red', label='DC-line\nstep pos (6.7' + r'$\mu m$' + ')')
+        print(real_distance[30])
 
         # fitting part
 
@@ -54,7 +57,7 @@ def plot_res_curves_2d(data, m_name, m_date, m_type, show=True, save=False):
             fit_params = np.array([est_amplitude, est_decay, est_x0, est_wave_number, est_phase, est_y0])
             print(fit_params)
             wave_number = fit_params[3]
-            wave_length = 2 * np.pi / wave_number
+            wave_length = np.pi / wave_number
             x_coord = np.linspace(real_distance[3], real_distance[91], 1000)
             data_fit = decaying_func(fit_params, x_coord)
             ax1.plot(x_coord, data_fit,
@@ -64,11 +67,11 @@ def plot_res_curves_2d(data, m_name, m_date, m_type, show=True, save=False):
             # fitting before step
 
             guess_amplitude = np.mean(y)  # params[0]
-            guess_decay = 0.03  # params[1]
+            guess_decay = -0.03  # params[1]
             guess_x0 = -1.69  # params[2]
-            guess_wave_number = 0.76  # params[3]
+            guess_wave_number = 0.7  # params[3]
             # guess_wave_number = 0.1  # params[3]
-            guess_phase = -2.88  # params[4]
+            guess_phase = 2.88  # params[4]
             guess_y0 = 10000  # params[5]
             guess_params = np.array([guess_amplitude, guess_decay, guess_x0, guess_wave_number, guess_phase, guess_y0])
 
@@ -78,12 +81,12 @@ def plot_res_curves_2d(data, m_name, m_date, m_type, show=True, save=False):
 
 
             est_amplitude, est_decay, est_x0, est_wave_number, est_phase, est_y0 = \
-                leastsq(errfunc, guess_params, args=(real_distance[7:31], y[7:31]))[0]
+                leastsq(errfunc, guess_params, args=(real_distance[3:31], y[3:31]))[0]
             fit_params = np.array([est_amplitude, est_decay, est_x0, est_wave_number, est_phase, est_y0])
             print(fit_params)
             wave_number_before = fit_params[3]
-            wave_length_before = 2*np.pi/wave_number_before
-            x_coord = np.linspace(real_distance[7], real_distance[29], 100)
+            wave_length_before = np.pi/wave_number_before
+            x_coord = np.linspace(real_distance[3], real_distance[29], 500)
             data_fit = decaying_func(fit_params, x_coord)
             ax1.plot(x_coord, data_fit, color='blue', label='fit '+r'$\lambda$'+'='+"{0:.2f}".format(wave_length_before) + r'$\mu m$')
 
@@ -91,7 +94,7 @@ def plot_res_curves_2d(data, m_name, m_date, m_type, show=True, save=False):
 
             guess_amplitude = np.mean(y)  # params[0]
             guess_decay = -0.1  # params[1]
-            guess_x0 = 0.27  # params[2]
+            guess_x0 = -0.27  # params[2]
             guess_wave_number = 1.01  # params[3]
             guess_phase = 5.13  # params[4]
             guess_y0 = 10000  # params[5]
@@ -101,14 +104,12 @@ def plot_res_curves_2d(data, m_name, m_date, m_type, show=True, save=False):
                                                   np.power(np.cos(params[3] * coord + params[4]), 2) + params[5]
             errfunc = lambda params, coord, y: decaying_func(params, coord) - y
 
-
-            est_amplitude, est_decay, est_x0, est_wave_number, est_phase, est_y0 = \
-                leastsq(errfunc, guess_params, args=(real_distance[31:91], y[31:91]))[0]
-            fit_params = np.array([est_amplitude, est_decay, est_x0, est_wave_number, est_phase, est_y0])
+            fit_params = leastsq(errfunc, guess_params, args=(real_distance[31:91], y[31:91]))[0]
+            # fit_params = np.array([est_amplitude, est_decay, est_x0, est_wave_number, est_phase, est_y0])
             print(fit_params)
             wave_number_after = fit_params[3]
-            wave_length_before = 2*np.pi / wave_number_after
-            x_coord = np.linspace(real_distance[31], real_distance[91], 100)
+            wave_length_before = np.pi / wave_number_after
+            x_coord = np.linspace(real_distance[30], real_distance[91], 1000)
             data_fit2 = decaying_func(fit_params, x_coord)
             ax1.plot(x_coord, data_fit2, color='green', label='fit '+r'$\lambda$'+'='+"{0:.2f}".format(wave_length_before) + r'$\mu m$')
 
@@ -117,7 +118,7 @@ def plot_res_curves_2d(data, m_name, m_date, m_type, show=True, save=False):
     new_xticks = np.linspace(0, 22.3, 12)
     new_xticks = [int(xtick) for xtick in new_xticks]
     ax1.set_xticks(new_xticks)
-    ax1.set_xlim([1, 22.3])
+    ax1.set_xlim([0, 22.3])
     ax1.set_ylim([0, max(y)+2000])
     ax1.set_xlabel('Position along Py stripe'+r' ($\mu m$)')
     ax1.set_ylabel('Intensity (a.u.)')
