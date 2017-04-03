@@ -1,9 +1,152 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
-from scipy.optimize import leastsq
+from scipy.optimize import leastsq, least_squares
 
 from mpl_toolkits.mplot3d import Axes3D
+
+
+def decaying_func(parameters, x_input):
+    return parameters[0] * np.exp(-parameters[1] * x_input + parameters[2]) * \
+                   np.power(np.cos(parameters[3] * x_input + parameters[4]), 2) + parameters[5]
+
+
+def error_func(pars, x_i, y):
+    return decaying_func(pars, x_i) - y
+
+
+def fit_phase_res_curve(x_in, y, guess_params):
+    fit_parameters = least_squares(error_func, guess_params, args=(x_in, y))
+    return fit_parameters
+
+
+# this function made extra to fit the non 90 degree samples phase resolved curves
+def plot_res_curves_2d_v2(data, m_name, m_date, m_type, show=True, save=False):
+
+    # plotting
+    fig1 = plt.figure()
+    proper_date = m_date[:2] + '.' + m_date[2:4] + '.' + m_date[4:]
+    title_name = m_type + '\n' + 'along Py stripe' + ' at ' + m_name[-4:] + ' DC'
+    fig1.suptitle(title_name, fontweight='bold', fontsize=12)
+    ax1 = fig1.add_subplot(111)
+
+    # calculating the real space x-axis
+    real_distance = np.linspace(0, 22.3, len(data.T[0]))
+    # plotting the data
+    ax1.scatter(real_distance, data.T[1], color='black', label='data')
+
+    # plotting the DC-line step position
+    y_line = np.arange(0, max(data.T[1]) + 15000, 5)
+    x_line = np.array([real_distance[30] for i in range(len(y_line))])
+    ax1.plot(x_line, y_line, linestyle='--', color='red', label='DC-line width change '
+                                                                '\n(start 6.7' + r'$\mu m$' + ','+
+                                                                'end 11.7' + r'$\mu m$' + ')')
+
+    # plotting end of the variable width section
+    y_line_2 = np.arange(0, max(data.T[1]) + 15000, 5)
+    x_line_2 = np.array([real_distance[52] for i in range(len(y_line))])
+    ax1.plot(x_line_2, y_line_2, linestyle='--', color='red')
+    ax1.axvspan(real_distance[30], real_distance[52], color='grey', alpha=0.3, label='variable width reigon')
+
+    # for the measurement without DC:
+    if '00' in m_name:
+        guess_amplitude = np.mean(data.T[1])  # params[0]
+        guess_decay = 0.2  # params[1]
+        guess_x0 = 1.69  # params[2]
+        guess_wave_number = 0.85  # params[3]
+        guess_phase = 4.88  # params[4]
+        guess_y0 = 10000  # params[5]
+        guess_params = np.array([guess_amplitude, guess_decay, guess_x0, guess_wave_number, guess_phase, guess_y0])
+
+        fit_params = fit_phase_res_curve(real_distance[3:95], data.T[1][3:95], guess_params)
+        print(fit_params.x, ' for 00 mA')
+        wave_number = fit_params.x[3]
+        wave_length = np.pi / wave_number
+        x_coord = np.linspace(real_distance[3], real_distance[91], 1000)
+        data_fit = decaying_func(fit_params.x, x_coord)
+        ax1.plot(x_coord, data_fit,
+                 label='fit ' + r'$\lambda$' + '=' + "{0:.2f}".format(wave_length) + r'$\mu m$')
+
+    # for the measurement with DC
+    else:
+        # fit before the step in the DC-line
+
+        guess_amplitude = np.mean(data.T[1])  # params[0]
+        guess_decay = -0.03  # params[1]
+        guess_x0 = -1.69  # params[2]
+        guess_wave_number = 0.6062  # params[3]
+        guess_phase = 2.88  # params[4]
+        guess_y0 = 10000  # params[5]
+        guess_params = np.array([guess_amplitude, guess_decay, guess_x0, guess_wave_number, guess_phase, guess_y0])
+
+        fit_params = fit_phase_res_curve(real_distance[5:31], data.T[1][5:31], guess_params)
+        print('fit parameters before step:',fit_params.x)
+        wave_number = fit_params.x[3]
+        wave_length = np.pi / wave_number
+        x_coord = np.linspace(real_distance[3], real_distance[31], 1000)
+        data_fit = decaying_func(fit_params.x, x_coord)
+        ax1.plot(x_coord, data_fit,
+                 label='fit ' + r'$\lambda$' + '=' + "{0:.2f}".format(wave_length) + r'$\mu m$', color='blue')
+
+        # fit after the step in the DC-line in the variable width region
+
+        guess_amplitude = np.mean(data.T[1])  # params[0]
+        guess_decay = 0.1  # params[1]
+        guess_x0 = -0.27  # params[2]
+        guess_wave_number = 0.67  # params[3]
+        guess_phase = 2.13  # params[4]
+        guess_y0 = 10000  # params[5]
+        guess_params = np.array([guess_amplitude, guess_decay, guess_x0, guess_wave_number, guess_phase, guess_y0])
+
+        fit_params = fit_phase_res_curve(real_distance[31:52], data.T[1][31:52], guess_params)
+        print('fit parameters after, variable width region:', fit_params.x)
+        wave_number = fit_params.x[3]
+        wave_length = np.pi / wave_number
+        x_coord = np.linspace(real_distance[31], real_distance[52], 1000)
+        data_fit = decaying_func(fit_params.x, x_coord)
+        ax1.plot(x_coord, data_fit,
+                 label='fit ' + r'$\lambda$' + '=' + "{0:.2f}".format(wave_length) + r'$\mu m$', color='green')
+
+        # fit after the step in the DC-line in the constant width region
+
+        guess_amplitude = np.mean(data.T[1])  # params[0]
+        guess_decay = 0.05  # params[1]
+        guess_x0 = -0.27  # params[2]
+        guess_wave_number = 0.675  # params[3]
+        guess_phase = 2.13  # params[4]
+        guess_y0 = 10000  # params[5]
+        guess_params = np.array([guess_amplitude, guess_decay, guess_x0, guess_wave_number, guess_phase, guess_y0])
+
+        fit_params = fit_phase_res_curve(real_distance[52:95], data.T[1][52:95], guess_params)
+        print('fit parameters after, constant width region:', fit_params.x)
+        wave_number = fit_params.x[3]
+        wave_length = np.pi / wave_number
+        x_coord = np.linspace(real_distance[52], real_distance[95], 1000)
+        data_fit = decaying_func(fit_params.x, x_coord)
+        ax1.plot(x_coord, data_fit,
+                 label='fit ' + r'$\lambda$' + '=' + "{0:.2f}".format(wave_length) + r'$\mu m$', color='orange')
+
+    # some things to make plot beautiful
+    ax1.grid()
+    new_xticks = np.linspace(0, 22.3, 12)
+    new_xticks = [int(xtick) for xtick in new_xticks]
+    ax1.set_xticks(new_xticks)
+    ax1.set_xlim([0, 22])
+    ax1.set_ylim([0, max(data.T[1]) + 2000])
+    ax1.set_xlabel('Position along Py stripe' + r' ($\mu m$)')
+    ax1.set_ylabel('Intensity (a.u.)')
+    ax1.ticklabel_format(axis='y', style='sci', scilimits=(-3, 3), useOffset=False)
+    ax1.yaxis.major.formatter._useMathText = True
+    ax1.legend()
+    fig1.tight_layout()
+    fig1.subplots_adjust(top=0.89)
+
+    if save:
+        # m_name_new = m_name[:1]+'p'+m_name[2:]
+        save_name = m_date + '_' + m_name + '_' + m_type + '.png'
+        plt.savefig('./output_pics/' + save_name, format='png', dpi=100)
+    if show:
+        plt.show()
 
 
 def plot_res_curves_2d(data, m_name, m_date, m_type, show=True, save=False):
@@ -17,7 +160,7 @@ def plot_res_curves_2d(data, m_name, m_date, m_type, show=True, save=False):
     ax1 = fig1.add_subplot(111)
     i = 0
     colors = cm.magma(np.linspace(0, 1, len(data.T)/2))
-    real_distance = np.linspace(0, 22.3, 100)
+    real_distance = np.linspace(0, 22.3, 101)
     print(real_distance[30])
     for i, color in zip(range(0, len(data.T), 2), colors):
         x = data.T[i]
@@ -37,8 +180,8 @@ def plot_res_curves_2d(data, m_name, m_date, m_type, show=True, save=False):
 
         # fitting part
 
-        # for the measurement without DC
 
+        # for the measurement without DC
         if '00' in m_name:
             guess_amplitude = np.mean(y)  # params[0]
             guess_decay = 0.2  # params[1]
@@ -53,7 +196,7 @@ def plot_res_curves_2d(data, m_name, m_date, m_type, show=True, save=False):
             errfunc = lambda params, coord, y: decaying_func(params, coord) - y
 
             est_amplitude, est_decay, est_x0, est_wave_number, est_phase, est_y0 = \
-                leastsq(errfunc, guess_params, args=(real_distance[3:91], y[3:91]))[0]
+                leastsq(errfunc, guess_params, args=(real_distance[3:95], y[3:95]))[0]
             fit_params = np.array([est_amplitude, est_decay, est_x0, est_wave_number, est_phase, est_y0])
             print(fit_params)
             wave_number = fit_params[3]
@@ -63,6 +206,7 @@ def plot_res_curves_2d(data, m_name, m_date, m_type, show=True, save=False):
             ax1.plot(x_coord, data_fit,
                      label='fit ' + r'$\lambda$' + '=' + "{0:.2f}".format(wave_length) + r'$\mu m$')
 
+        # for the measurement with DC
         else:
             # fitting before step
 
@@ -95,7 +239,7 @@ def plot_res_curves_2d(data, m_name, m_date, m_type, show=True, save=False):
             guess_amplitude = np.mean(y)  # params[0]
             guess_decay = -0.1  # params[1]
             guess_x0 = -0.27  # params[2]
-            guess_wave_number = 1.01  # params[3]
+            guess_wave_number = 1.1  # params[3]
             guess_phase = 5.13  # params[4]
             guess_y0 = 10000  # params[5]
             guess_params = np.array([guess_amplitude, guess_decay, guess_x0, guess_wave_number, guess_phase, guess_y0])
@@ -118,7 +262,7 @@ def plot_res_curves_2d(data, m_name, m_date, m_type, show=True, save=False):
     new_xticks = np.linspace(0, 22.3, 12)
     new_xticks = [int(xtick) for xtick in new_xticks]
     ax1.set_xticks(new_xticks)
-    ax1.set_xlim([0, 22.3])
+    ax1.set_xlim([0, 22])
     ax1.set_ylim([0, max(y)+2000])
     ax1.set_xlabel('Position along Py stripe'+r' ($\mu m$)')
     ax1.set_ylabel('Intensity (a.u.)')

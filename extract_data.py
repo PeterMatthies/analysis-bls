@@ -1,7 +1,7 @@
 import numpy as np
 from os import listdir
 from os.path import isfile, join
-from plotting_functions import plot_res_curves_2d, plot_res_curves_3d, plot_raw_data
+import plotting_functions as pf
 
 
 class MeasurementData:
@@ -21,13 +21,16 @@ class MeasurementData:
         self.mes_type = text
 
     def plot_data_2d(self, show=True, save=False):
-        plot_res_curves_2d(self.data, self.mes_name, self.mes_date, self.mes_type, show, save)
+        pf.plot_res_curves_2d(self.data, self.mes_name, self.mes_date, self.mes_type, show, save)
+
+    def plot_data_2d_v2(self, show=True, save=False):
+        pf.plot_res_curves_2d_v2(self.data, self.mes_name, self.mes_date, self.mes_type, show, save)
 
     def plot_data_3d(self, show=True, save=False):
-        plot_res_curves_3d(self.data, self.mes_name, self.mes_date, self.mes_type, show, save)
+        pf.plot_res_curves_3d(self.data, self.mes_name, self.mes_date, self.mes_type, show, save)
 
     def plot_data_raw(self, show=True, save=False):
-        plot_raw_data(self.data, self.mes_name, self.mes_date, self.mes_type, show, save)
+        pf.plot_raw_data(self.data, self.mes_name, self.mes_date, self.mes_type, show, save)
 
 
 def extract_data_folder(path_to_data, m_date, m_type):
