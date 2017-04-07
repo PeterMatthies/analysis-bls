@@ -19,14 +19,21 @@ path_to_data = './m_data/26-10-2016/'
 
 # path_to_file = './m_data/24_10_2016/m2_he_00mA.txt'
 # path_to_file = './m_data/24_10_2016/m3_he_10mA.txt'
-path_to_file = './m_data/24_10_2016/m3_he_20mA.txt'
+# path_to_file = './m_data/24_10_2016/m3_he_20mA.txt'
 
-m_name = path_to_file.split('/')[-1][:-4]
-m_date = path_to_file.split('/')[-2]
-print(m_name)
+# m_name = path_to_file.split('/')[-1][:-4]
+# m_date = path_to_file.split('/')[-2]
+# print(m_name)
 
-m_data = ed.extract_data_file(path_to_file, m_name, m_date, m_type='Phase resolved line scan')
-m_data.plot_data_2d_v2(save=1, show=1)
+# m_data = ed.extract_data_file(path_to_file, m_name, m_date, m_type='Phase resolved line scan')
+# m_data.plot_data_2d_v2(save=1, show=1)
+
+
+# path_to_file = '/Users/Peter/Documents/bls/non_reciprocity/thermal spectra/raw_spec_e3.dat'
+# m_name = 'e3'
+# m_date = '13-03-2017'
+# m_data = ed.extract_data_file(path_to_file, m_name, m_date, m_type='thermal spectrum field sweep')
+# m_data.plot_data_raw(save=0, show=1)
 
 # for loop to analyze multiple data files
 # all_data = ed.extract_data_folder(path_to_data, m_date='26102016', m_type='Phase resolved line scan')
