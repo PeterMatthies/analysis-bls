@@ -1,0 +1,3 @@
+#MICROSCOPE - ScanDimension_2 - Plot 0	MICROSCOPE - YpositionCurrent - Plot 0	
+1	16482.9	
+100	16499.4	

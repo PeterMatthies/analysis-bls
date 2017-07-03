@@ -1,0 +1,4 @@
+#MICROSCOPE - ScanDimension_1 - Plot 0	MICROSCOPE - XpositionCurrent - Plot 0	
+1	62604.1	
+2	62603	
+3	62603.734

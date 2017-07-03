@@ -1,0 +1,64 @@
+# data file: O:\Labs\Laser-Lab 7-105a\BLS\BLS Data\2017-05-25\NRCL\2017-05-25_M2_D4field+freqsweep(min5to15mT_2p5to6GHz)0dBm.tha
+# x axis: Agilent_E8257D - FREQUENCY (Hz)
+# y axis: TFPDAS4-Project - COUNTS ACC
+# linked controls - field - Control Voltage Kepco - repetition: sum
+# MICROSCOPE - ScanDimension_1 - repetition: sum
+# Agilent_E8257D - FREQUENCY (Hz) - repetition: sum
+# linked controls - field - Control Voltage Kepco - value: 0.000000E+0
+# MICROSCOPE - ScanDimension_1 - value: 1.000000E+0
+# Agilent_E8257D - FREQUENCY (Hz) - value: 2.500000E+9
+# intensity graph x: Agilent_E8257D - FREQUENCY (Hz)
+# intensity graph y: Frequency
+# diagoanl,x: cursors ( 2.600000E+9, -3.075000E+0) and (5.400000E+9, -5.850000E+0)
+# sum between: -6.600000E+0 and 2.925000E+0
+
+# data file: O:\Labs\Laser-Lab 7-105a\BLS\BLS Data\2017-05-25\NRCL\2017-05-25_M2_D4field+freqsweep(min5to15mT_2p5to6GHz)0dBm.tha
+# x axis: Agilent_E8257D - FREQUENCY (Hz)
+# y axis: TFPDAS4-Project - COUNTS ACC
+# linked controls - field - Control Voltage Kepco - repetition: sum
+# MICROSCOPE - ScanDimension_1 - repetition: sum
+# Agilent_E8257D - FREQUENCY (Hz) - repetition: sum
+# linked controls - field - Control Voltage Kepco - value: 0.000000E+0
+# MICROSCOPE - ScanDimension_1 - value: 2.000000E+0
+# Agilent_E8257D - FREQUENCY (Hz) - value: 2.500000E+9
+# intensity graph x: Agilent_E8257D - FREQUENCY (Hz)
+# intensity graph y: Frequency
+# diagoanl,x: cursors ( 2.600000E+9, -3.075000E+0) and (5.400000E+9, -5.850000E+0)
+# sum between: -6.600000E+0 and 2.925000E+0
+
+2.500E+9	1.280E+2
+2.600E+9	9.900E+1
+2.700E+9	8.300E+1
+2.800E+9	1.050E+2
+2.900E+9	1.590E+2
+3.000E+9	1.370E+2
+3.100E+9	1.630E+2
+3.200E+9	1.020E+2
+3.300E+9	9.200E+1
+3.400E+9	8.800E+1
+3.500E+9	7.400E+1
+3.600E+9	1.160E+2
+3.700E+9	1.210E+2
+3.800E+9	8.900E+1
+3.900E+9	8.600E+1
+4.000E+9	9.000E+1
+4.100E+9	7.300E+1
+4.200E+9	5.100E+1
+4.300E+9	3.400E+1
+4.400E+9	4.400E+1
+4.500E+9	4.800E+1
+4.600E+9	4.500E+1
+4.700E+9	3.800E+1
+4.800E+9	2.900E+1
+4.900E+9	3.000E+1
+5.000E+9	3.200E+1
+5.100E+9	5.100E+1
+5.200E+9	3.000E+1
+5.300E+9	3.500E+1
+5.400E+9	2.300E+1
+5.500E+9	1.600E+1
+5.600E+9	1.000E+1
+5.700E+9	0.000E+0
+5.800E+9	0.000E+0
+5.900E+9	0.000E+0
+6.000E+9	0.000E+0
