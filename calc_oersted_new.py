@@ -1,14 +1,14 @@
 # Oersted-field calculation
 # origin of coordinate system middle bottom in the cross section of the Au wire
 
-import sys, os, random
-import numpy as np
+import sys
+
 import matplotlib.pyplot as plt
-import matplotlib
+import numpy as np
+from PyQt5 import QtGui, QtCore, QtWidgets
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.backends.backend_qt5agg import NavigationToolbar2QT as NavigationToolbar
 from matplotlib.figure import Figure
-from PyQt5 import QtGui, QtCore, QtWidgets
 
 
 class AppForm(QtWidgets.QMainWindow):
@@ -20,14 +20,14 @@ class AppForm(QtWidgets.QMainWindow):
         self.create_main_frame()
         self.create_status_bar()
         self.textbox1.setText('0.15')  # current value (A)
-        self.textbox2.setText('90e-9') # z point for which the field will be calculated
+        self.textbox2.setText('90e-9')  # z point for which the field will be calculated
         self.textbox3.setText('3e-6')  # width of the Au wire (m)
-        self.textbox4.setText('25e-9') # thickness of the Au wire (m)
+        self.textbox4.setText('25e-9')  # thickness of the Au wire (m)
         self.on_draw()
-        self.current=0.15
-        self.z_pos=90e-9
-        self.width=3e-6
-        self.thickness=25e-9
+        self.current = 0.15
+        self.z_pos = 90e-9
+        self.width = 3e-6
+        self.thickness = 25e-9
 
     def save_plot(self):
         file_choices = 'PNG (*.png)|*.png'
@@ -59,7 +59,7 @@ class AppForm(QtWidgets.QMainWindow):
         # only a small amount here.
         #
         box_points = event.artist.get_bbox().get_points()
-        msg = "You've clicked on a bar with coords:\n %s" %box_points
+        msg = "You've clicked on a bar with coords:\n %s" % box_points
 
         QtWidgets.QMessageBox.information(self, "Click!", msg)
 
@@ -71,8 +71,8 @@ class AppForm(QtWidgets.QMainWindow):
         self.width = float(self.textbox3.text())
         self.thickness = float(self.textbox4.text())
 
-        x = np.linspace(-0.5*self.width, 0.5*self.width, 1000)
-        y = 1000*calc_field(x, self.z_pos, self.width, self.thickness, self.current)
+        x = np.linspace(-0.5 * self.width, 0.5 * self.width, 1000)
+        y = 1000 * calc_field(x, self.z_pos, self.width, self.thickness, self.current)
         # clear the axes and redraw the plot anew
         #
         self.axes.clear()
@@ -86,13 +86,13 @@ class AppForm(QtWidgets.QMainWindow):
         #     align='center',
         #     alpha=0.44,
         #     picker=5)
-        self.axes.set_xlim(-0.5*self.width, 0.5*self.width)
+        self.axes.set_xlim(-0.5 * self.width, 0.5 * self.width)
         self.axes.set_xlabel('Position across wire (m)')
         self.axes.set_ylabel(r"$B_{in\hspace{0.2} plane}$ (mT)")
         self.axes.ticklabel_format(axis='x', style='sci', scilimits=(-3, 3), useOffset=False)
         self.axes.xaxis.major.formatter._useMathText = True
-        self.canvas.draw()
         self.fig.tight_layout()
+        self.canvas.draw()
 
     def create_main_frame(self):
         self.main_frame = QtWidgets.QWidget()
@@ -101,12 +101,12 @@ class AppForm(QtWidgets.QMainWindow):
         # 5x4 inches, 100 dots per inch
         #
         self.dpi = 100
-        self.fig = Figure((5.0, 4.0), dpi=self.dpi)
+        self.fig = Figure((4.0, 4.0), dpi=self.dpi)
         self.canvas = FigureCanvas(self.fig)
         self.canvas.setParent(self.main_frame)
 
         self.axes = self.fig.add_subplot(111)
-
+        self.fig.tight_layout()
 
         # Bind the 'pick' event for clicking on one of the bars
         #
@@ -118,20 +118,28 @@ class AppForm(QtWidgets.QMainWindow):
 
         # Other GUI controls
         #
+        current_label = QtWidgets.QLabel('Current (A)')
+        current_label.setMinimumWidth(50)
         self.textbox1 = QtWidgets.QLineEdit()
-        self.textbox1.setMinimumWidth(100)
+        self.textbox1.setMinimumWidth(50)
         self.textbox1.editingFinished.connect(self.on_draw)
 
+        zpos_label = QtWidgets.QLabel('z position (m)')
+        zpos_label.setMinimumWidth(50)
         self.textbox2 = QtWidgets.QLineEdit()
-        self.textbox2.setMinimumWidth(100)
+        self.textbox2.setMinimumWidth(50)
         self.textbox2.editingFinished.connect(self.on_draw)
 
+        width_label = QtWidgets.QLabel('Width of Au wire (m)')
+        width_label.setMinimumWidth(50)
         self.textbox3 = QtWidgets.QLineEdit()
-        self.textbox3.setMinimumWidth(100)
+        self.textbox3.setMinimumWidth(50)
         self.textbox3.editingFinished.connect(self.on_draw)
 
+        thickness_label = QtWidgets.QLabel('Thickness of Au wire (m)')
+        thickness_label.setMinimumWidth(50)
         self.textbox4 = QtWidgets.QLineEdit()
-        self.textbox4.setMinimumWidth(100)
+        self.textbox4.setMinimumWidth(50)
         self.textbox4.editingFinished.connect(self.on_draw)
 
         self.draw_button = QtWidgets.QPushButton("&Draw")
@@ -152,19 +160,26 @@ class AppForm(QtWidgets.QMainWindow):
         # self.connect(self.slider, QtWidgets.PYQT_SIGNAL('valueChanged(int)'), self.on_draw)
         # self.slider.valueChanged.connect(self.on_draw)
 
+        blank_label = QtWidgets.QLabel('')
+        blank_label.setMinimumWidth(100)
         #
         # Layout with box sizers
         #
-        hbox = QtWidgets.QHBoxLayout()
-
+        hbox1 = QtWidgets.QHBoxLayout()
+        hbox2 = QtWidgets.QHBoxLayout()
         for w in [self.textbox1, self.textbox2, self.textbox3, self.textbox4, self.draw_button, self.grid_cb]:
-            hbox.addWidget(w)
-            hbox.setAlignment(w, QtCore.Qt.AlignVCenter)
+            hbox1.addWidget(w)
+            hbox1.setAlignment(w, QtCore.Qt.AlignVCenter)
+
+        for w in [current_label, zpos_label, width_label, thickness_label, blank_label]:
+            hbox2.addWidget(w)
+            hbox2.setAlignment(w, QtCore.Qt.AlignVCenter)
 
         vbox = QtWidgets.QVBoxLayout()
         vbox.addWidget(self.canvas)
         vbox.addWidget(self.mpl_toolbar)
-        vbox.addLayout(hbox)
+        vbox.addLayout(hbox1)
+        vbox.addLayout(hbox2)
 
         self.main_frame.setLayout(vbox)
         self.setCentralWidget(self.main_frame)
@@ -180,7 +195,7 @@ class AppForm(QtWidgets.QMainWindow):
                                               shortcut="Ctrl+S", slot=self.save_plot, tip='Save the plot')
         quit_action = self.create_action("&Quit", slot=self.close, shortcut="Ctrl+Q", tip='Close the application')
 
-        self.add_actions(self.file_menu,(load_file_action, None, quit_action))
+        self.add_actions(self.file_menu, (load_file_action, None, quit_action))
 
         self.help_menu = self.menuBar().addMenu("&Help")
         about_action = self.create_action("&About", shortcut="F1", slot=self.on_about, tip='About the Demo')
@@ -220,16 +235,16 @@ def main():
 
 
 def calc_field(x_pos, z_pos, width, height, current):
-    gamma = (1.2566E-6/(4*np.pi))*current/(width*height)
-    x1 = x_pos + width/2
-    x2 = x_pos - width/2
+    gamma = (1.2566E-6 / (4 * np.pi)) * current / (width * height)
+    x1 = x_pos + width / 2
+    x2 = x_pos - width / 2
     z1 = height - z_pos
     a1 = (np.power(x1, 2) + np.power(z_pos, 2)) / (np.power(x1, 2) + np.power(z1, 2))
     a2 = (np.power(x2, 2) + np.power(z_pos, 2)) / (np.power(x2, 2) + np.power(z1, 2))
     print(gamma, x1, x2, z1, a1, a2)
     return gamma * (0.5 * x1 * np.log(a1) - 0.5 * x2 * np.log(a2) +
-                     z_pos * (np.arctan(x1 / z_pos) - np.arctan(x2 / z_pos)) -
-                     z1 * (np.arctan(x1 / z1) - np.arctan(x2 / z1)))
+                    z_pos * (np.arctan(x1 / z_pos) - np.arctan(x2 / z_pos)) -
+                    z1 * (np.arctan(x1 / z1) - np.arctan(x2 / z1)))
 
 
 # define variables
@@ -241,14 +256,14 @@ z0 = 90e-9  # m middle of py stripe
 mu0 = 1.2566E-6
 
 # Calculation
-print('Oersted field is (mT):', 1000*calc_field(0.0, z0, w, thickness_max, I), '50 nm Au')
-print('Oersted field is (mT):', 1000*calc_field(0.0, z0, w, thickness_min, I), '25 nm Au')
+print('Oersted field is (mT):', 1000 * calc_field(0.0, z0, w, thickness_max, I), '50 nm Au')
+print('Oersted field is (mT):', 1000 * calc_field(0.0, z0, w, thickness_min, I), '25 nm Au')
 #
-x_points = np.linspace(-w/2, w/2, 1000)
-field_middle_py1 = 1000*calc_field(x_points, z0, w, thickness_max, I)
-field_middle_py2 = 1000*calc_field(x_points, z0, w, thickness_min, I)
-By1 = 1000*calc_field(x_points, thickness_max, w, thickness_min, I)
-By2 = 1000*calc_field(x_points, thickness_max, w, thickness_max, I)
+x_points = np.linspace(-w / 2, w / 2, 1000)
+field_middle_py1 = 1000 * calc_field(x_points, z0, w, thickness_max, I)
+field_middle_py2 = 1000 * calc_field(x_points, z0, w, thickness_min, I)
+By1 = 1000 * calc_field(x_points, thickness_max, w, thickness_min, I)
+By2 = 1000 * calc_field(x_points, thickness_max, w, thickness_max, I)
 #
 #
 fig1 = plt.figure()
@@ -263,14 +278,13 @@ ax1.plot(x_points, By2, 'gx', label='surface of Au, Au 50nm thick', markersize=4
 ax1.ticklabel_format(axis='x', style='sci', scilimits=(-3, 3), useOffset=False)
 ax1.xaxis.major.formatter._useMathText = True
 ax1.grid(True)
-ax1.set_xlim(-w/2, w/2)
+ax1.set_xlim(-w / 2, w / 2)
 ax1.legend(loc=8)
 plt.xlabel("Position across wire (m)")
 plt.ylabel(r"$B_{in\hspace{0.2} plane}$ (mT)")
 #
 # plt.savefig('swsd1_oersted_inplane.png', format='png', dpi=100)
-plt.show()
-
+# plt.show()
 
 if __name__ == "__main__":
     main()
