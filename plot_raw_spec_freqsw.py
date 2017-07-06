@@ -2,8 +2,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import re
 
-path_to_data = './m_data/29052017_nrcl/'
-data_file = 'm3_raw_pos1.dat'
+path_to_data = './m_data/30052017_nrcl/'
+data_file = 'm5_raw_pos1.dat'
+# data_file = 'm3_raw_pos1_50mT.dat'
 
 # loading the data
 data_raw = np.loadtxt(path_to_data+data_file, comments='#')
@@ -106,7 +107,7 @@ cbar.ax.get_yaxis().labelpad = 15
 # cbar.ax.set_yticklabels('')
 
 fig1.tight_layout()
-fig1.subplots_adjust(top=0.91, bottom=0.09)
+fig1.subplots_adjust(top=0.90, bottom=0.09)
 
 file_info = file_info.split('\\')
 print(file_info)

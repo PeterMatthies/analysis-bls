@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import re
 
 path_to_data = './m_data/29052017_nrcl/'
-data_file = 'm2_raw_pos2.dat'
+data_file = 'm2_raw_pos1.dat'
 field_values_file = 'field_values_'+data_file[:2]+'.dat'
 print(field_values_file)
 
@@ -71,7 +71,7 @@ cmap.set_under('black')
 # cmap.set_over('black')
 eps1 = np.spacing(0)
 im = ax1.imshow(data_raw.T, origin='lower', aspect='auto', vmin=eps1, vmax=64, cmap=cmap)
-
+# plt.gca().invert_xaxis()
 print(data_raw.T.shape)
 
 # adjusting the axes ticks
@@ -87,7 +87,7 @@ ax1.set_yticklabels(freq_tick_labels)
 
 
 # x_ticks = np.arange(0, data_raw.T.shape[1], 6)
-x_ticks = np.arange(0, data_raw.T.shape[1], 50)
+x_ticks = np.arange(0, data_raw.T.shape[1], 25)
 # x_tick_labels = np.linspace(field_values[0], field_values[-1], len(x_ticks))
 x_tick_labels = np.linspace(x_offset, (data_raw.T.shape[1] - 1) * x_multiplier + x_offset, len(x_ticks))
 # x_tick_labels = ["{0:.2f}".format(x_tick) for x_tick in x_tick_labels]
@@ -95,7 +95,7 @@ x_tick_labels = [int(x_tick) for x_tick in x_tick_labels]
 ax1.set_xticks(x_ticks)
 ax1.set_xticklabels(x_tick_labels)
 
-ax1.set_xlabel('Magn. Field (mT)')
+ax1.set_xlabel(r'$\mu_0 H$'+' (mT)')
 # ax1.set_xlabel(x_axis_name)
 ax1.set_ylabel('Frequency (GHz)')
 
@@ -105,7 +105,7 @@ cbar.ax.get_yaxis().labelpad = 15
 # cbar.ax.set_yticklabels('')
 
 fig1.tight_layout()
-fig1.subplots_adjust(top=0.91, bottom=0.09)
+fig1.subplots_adjust(top=0.90, bottom=0.11)
 
 file_info = file_info.split('\\')
 print(file_info)
