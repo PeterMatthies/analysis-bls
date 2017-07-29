@@ -113,5 +113,5 @@ print(file_info)
 save_name = file_info[-1][:-5] + ' ' + str(excitation_freq)[0] + 'GHz ' + pos_f + '_RAW' + '.png'
 # save_name = save_name.replace('both', pos)
 print(save_name)
-plt.savefig('./output_pics/nrcl/'+save_name, format='png', dpi=100)
+# plt.savefig('./output_pics/nrcl/'+save_name, format='png', dpi=100)
 plt.show()
