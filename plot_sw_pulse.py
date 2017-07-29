@@ -44,7 +44,6 @@ fig1 = plt.figure(figsize=(12, 4),dpi=100, tight_layout=True)
 #fig1.suptitle(title_name, fontweight='bold', fontsize=12)
 cmap = plt.get_cmap('jet')
 cmap.set_under('black')
-# cmap.set_over('black')
 eps1 = np.spacing(0)
 
 scale_factor = 11
