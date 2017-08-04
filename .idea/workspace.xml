@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e4b2f94-fb04-4071-a07e-c3278e33cde4" name="Default" comment="New Script to plot&amp;fit the spectrum from conventional BLS">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/analysis-bls.iml" afterPath="$PROJECT_DIR$/.idea/analysis-bls.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="8e4b2f94-fb04-4071-a07e-c3278e33cde4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plot_cbls_tests.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plot_cbls_spec.py" afterPath="$PROJECT_DIR$/plot_cbls_spec.py" />
     </list>
@@ -27,9 +26,10 @@
     <SUITE FILE_PATH="coverage/analysis_bls$phase_res_plot.coverage" NAME="phase_res_plot Coverage Results" MODIFIED="1491209392747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/analysis_bls$plot_nrcl.coverage" NAME="plot_nrcl Coverage Results" MODIFIED="1496307860176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/analysis-bls$analysis_main.coverage" NAME="analysis_main Coverage Results" MODIFIED="1490735431042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/analysis_bls$plot_cbls_spec.coverage" NAME="plot_cbls_spec Coverage Results" MODIFIED="1501762615316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/analysis_bls$plot_cbls_spec.coverage" NAME="plot_cbls_spec Coverage Results" MODIFIED="1501849111175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/analysis_bls$phase_res_plot_rac2_5p1GHz_v2.coverage" NAME="phase_res_plot_rac2_5p1GHz_v2 Coverage Results" MODIFIED="1491227940694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/analysis_bls$calc_field.coverage" NAME="calc_field Coverage Results" MODIFIED="1491562446156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/analysis_bls$plot_cbls_tests.coverage" NAME="plot_cbls_tests Coverage Results" MODIFIED="1501838206522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/analysis_bls$analysis_main.coverage" NAME="analysis_main Coverage Results" MODIFIED="1491383165250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/analysis_bls$plot_raw_spec_caustics.coverage" NAME="plot_raw_spec_caustics Coverage Results" MODIFIED="1501247597741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -64,11 +64,33 @@
       <file leaf-file-name="plot_cbls_spec.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plot_cbls_spec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="109" column="0" lean-forward="true" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+            <state relative-caret-position="862">
+              <caret line="163" column="0" lean-forward="true" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plot_cbls_tests.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plot_cbls_tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="23" column="80" lean-forward="false" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="80" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="phase_res_plot_rfc1_6GHz.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phase_res_plot_rfc1_6GHz.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="111" column="71" lean-forward="false" selection-start-line="111" selection-start-column="54" selection-end-line="111" selection-end-column="71" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -114,6 +136,7 @@
         <option value="$PROJECT_DIR$/plot_raw_spec_fieldsw.py" />
         <option value="$PROJECT_DIR$/plot_raw_spec_freqsw.py" />
         <option value="$PROJECT_DIR$/plot_raw_spec_caustics.py" />
+        <option value="$PROJECT_DIR$/plot_cbls_tests.py" />
         <option value="$PROJECT_DIR$/plot_cbls_spec.py" />
       </list>
     </option>
@@ -215,25 +238,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.plot_cbls_spec">
-    <configuration default="false" name="plot_caustics" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="analysis-bls" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plot_caustics.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="plot_raw_spec_fieldsw" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -305,6 +309,25 @@
       <module name="analysis-bls" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plot_cbls_spec.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="plot_cbls_tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="analysis-bls" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plot_cbls_tests.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -553,19 +576,19 @@
       <item index="0" class="java.lang.String" itemvalue="Python.analysis_main" />
       <item index="1" class="java.lang.String" itemvalue="Python.phase_res_plot_rac2_5p1GHz_v2" />
       <item index="2" class="java.lang.String" itemvalue="Python.plot_tr_data" />
-      <item index="3" class="java.lang.String" itemvalue="Python.plot_caustics" />
-      <item index="4" class="java.lang.String" itemvalue="Python.plot_raw_spec_fieldsw" />
-      <item index="5" class="java.lang.String" itemvalue="Python.plot_raw_spec_freqsw" />
-      <item index="6" class="java.lang.String" itemvalue="Python.plot_raw_spec_caustics" />
-      <item index="7" class="java.lang.String" itemvalue="Python.plot_cbls_spec" />
+      <item index="3" class="java.lang.String" itemvalue="Python.plot_raw_spec_fieldsw" />
+      <item index="4" class="java.lang.String" itemvalue="Python.plot_raw_spec_freqsw" />
+      <item index="5" class="java.lang.String" itemvalue="Python.plot_raw_spec_caustics" />
+      <item index="6" class="java.lang.String" itemvalue="Python.plot_cbls_spec" />
+      <item index="7" class="java.lang.String" itemvalue="Python.plot_cbls_tests" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.plot_cbls_spec" />
-        <item index="1" class="java.lang.String" itemvalue="Python.plot_raw_spec_caustics" />
-        <item index="2" class="java.lang.String" itemvalue="Python.plot_raw_spec_freqsw" />
-        <item index="3" class="java.lang.String" itemvalue="Python.plot_raw_spec_fieldsw" />
-        <item index="4" class="java.lang.String" itemvalue="Python.plot_caustics" />
+        <item index="1" class="java.lang.String" itemvalue="Python.plot_cbls_tests" />
+        <item index="2" class="java.lang.String" itemvalue="Python.plot_raw_spec_caustics" />
+        <item index="3" class="java.lang.String" itemvalue="Python.plot_raw_spec_freqsw" />
+        <item index="4" class="java.lang.String" itemvalue="Python.plot_raw_spec_fieldsw" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -719,7 +742,14 @@
       <option name="project" value="LOCAL" />
       <updated>1501691984812</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Updated Script to plot&amp;fit the spectrum from conventional BLS">
+      <created>1501764870665</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1501764870665</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -787,7 +817,8 @@
     <MESSAGE value="data of the measurements" />
     <MESSAGE value="small tweaks to scripts" />
     <MESSAGE value="New Script to plot&amp;fit the spectrum from conventional BLS" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Script to plot&amp;fit the spectrum from conventional BLS" />
+    <MESSAGE value="Updated Script to plot&amp;fit the spectrum from conventional BLS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Script to plot&amp;fit the spectrum from conventional BLS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -796,13 +827,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/phase_res_plot_rac2_5p1GHz_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="43" column="34" lean-forward="false" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plotting_functions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1365">
@@ -1087,13 +1111,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phase_res_plot_rfc1_6GHz.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1932">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/analysis_main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -1189,10 +1206,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/phase_res_plot_rfc1_6GHz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="111" column="71" lean-forward="false" selection-start-line="111" selection-start-column="54" selection-end-line="111" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plot_cbls_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="80" lean-forward="false" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="80" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/plot_cbls_spec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="109" column="0" lean-forward="true" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+        <state relative-caret-position="862">
+          <caret line="163" column="0" lean-forward="true" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
