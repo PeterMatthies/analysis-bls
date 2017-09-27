@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e4b2f94-fb04-4071-a07e-c3278e33cde4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/analysis-bls.iml" afterPath="$PROJECT_DIR$/.idea/analysis-bls.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plot_freq_sweep.py" afterPath="$PROJECT_DIR$/plot_freq_sweep.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plot_raw_spec_freqsw.py" afterPath="$PROJECT_DIR$/plot_raw_spec_freqsw.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -781,7 +777,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499090136560</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="updated frequency sweep plotting scripts to produce high res pdf output files">
+      <created>1506512893606</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1506512893606</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -847,7 +850,8 @@
     <MESSAGE value="analysis scripts for nrcl" />
     <MESSAGE value="analysis scripts for nrcl (caustics, field sweeps)" />
     <MESSAGE value="updated script for plotting of raw data" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated script for plotting of raw data" />
+    <MESSAGE value="updated frequency sweep plotting scripts to produce high res pdf output files" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated frequency sweep plotting scripts to produce high res pdf output files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
