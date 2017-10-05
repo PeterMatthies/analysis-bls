@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import re
 
 path_to_data = './m_data/30052017_nrcl/'
-data_file = 'm3_raw_pos1.dat'
+data_file = 'm4_raw_pos1.dat'
 # data_file = 'm3_raw_pos1_50mT.dat'
 
 # loading the data
@@ -67,11 +67,11 @@ else:
     pos = 'below'
 # fig1.suptitle('BLS Spectrum '+pos+' antenna\n'+'at '+str(ext_field)+' mT ext. field')
 
-cmap = plt.get_cmap('jet')
+cmap = plt.get_cmap('magma')
 cmap.set_under('black')
 # cmap.set_over('black')
 eps1 = np.spacing(0)
-im = ax1.imshow(data_raw.T, origin='lower', aspect='auto', vmin=eps1, vmax=100, cmap=cmap)
+im = ax1.imshow(data_raw.T, origin='lower', aspect='auto', vmin=eps1, vmax=100, cmap=cmap, interpolation='nearest')
 
 print(data_raw.T.shape)
 
@@ -99,7 +99,7 @@ ax1.set_xticklabels(x_tick_labels)
 
 ax1.set_xlabel('Excitation Freq. (GHz)')
 # ax1.set_xlabel(x_axis_name)
-ax1.set_ylabel('Frequency (GHz)')
+ax1.set_ylabel('BLS Frequency (GHz)')
 
 cbar = fig1.colorbar(im)
 cbar.set_label('Intensity (a.u.)', rotation=270)
@@ -111,8 +111,8 @@ fig1.subplots_adjust(top=0.95, bottom=0.09)
 
 file_info = file_info.split('\\')
 print(file_info)
-save_name = file_info[-1][:-5] + '_' + pos + '_RAW' + '.pdf'
-# save_name = save_name.replace('both', pos)
+save_name = file_info[-1][:-5] + '_' + 'RAW' + '.pdf'
+save_name = save_name.replace('both', pos)
 print(save_name)
-plt.savefig('./output_pics/nrcl/'+save_name, format='pdf', dpi=1000)
+plt.savefig('./output_pics/nrcl/'+save_name, format='pdf', dpi=100)
 plt.show()

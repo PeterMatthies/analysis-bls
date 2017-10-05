@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 
 path_to_data = './m_data/02062017_nrcl/extracted/'
-data_file = 'm7_4GHz_caustics.txt'
+data_file = 'm7_3GHz_caustics.txt'
 positions_dim1_file = 'm7_pos_dim1.txt'
 positions_dim2_file = 'm7_pos_dim2.txt'
 
@@ -12,10 +12,10 @@ fig = plt.figure()
 
 ax1 = fig.add_subplot(111)
 ax1.set_xlabel('position along antenna '+r'$(\mu m)$')
-ax1.set_ylabel(' norm Intensity (a.u.)')
+ax1.set_ylabel('Intensity (a.u.)')
 
-freq = '4.0 GHz'
-fig.suptitle('Caustics for '+freq)
+freq = '3.0 GHz'
+# fig.suptitle('Caustics for '+freq)
 
 
 data = np.loadtxt(path_to_data + data_file, comments='#')
@@ -30,25 +30,29 @@ print(length)
 # print(distance_to_antenna_1, distance_to_antenna_2)
 
 x1 = data[:, 0]
-y1 = data[:, 1]/max(data[:, 1])
+y1 = data[:, 1]  # /max(data[:, 1])
 x2 = data[:, 2]
-y2 = data[:, 3]/max(data[:, 3])
+y2 = data[:, 3]  # /max(data[:, 3])
 
 ax1.plot(real_space_x, y1, color='red', label='1 um from antenna')
 ax1.plot(real_space_x, y2, color='blue', label='close to antenna')
 print(np.average(y1))
 print(np.average(y2))
 
-yticks_new = np.linspace(0, 1, 11)
+# yticks_new = np.linspace(0, 1, 11)
 xticks_new = np.linspace(0, length, 12)
-ax1.set_yticks(yticks_new)
+# ax1.set_yticks(yticks_new)
 ax1.set_xticks(xticks_new)
 ax1.set_xlim([0, 16.5])
-ax1.set_ylim([0, 1.001])
+ax1.set_ylim([0, max(y2)+100])
+
+x_line1 = np.array([8.25 for i in range(100000)])
+y_line1 = np.linspace(0, max(y2)*2, 100000)
+ax1.plot(x_line1, y_line1, linestyle='--', linewidth=4.0, color='green', alpha=0.6, label='center of antenna')
 
 fig.tight_layout()
-fig.subplots_adjust(top=0.92)
+fig.subplots_adjust(top=0.95)
 plt.grid()
 plt.legend()
-plt.savefig('./output_pics/nrcl/'+'caustics_'+freq+'.png', format='png', dpi=100)
+plt.savefig('./output_pics/nrcl/'+'caustics_'+freq[0]+'.pdf', format='pdf', dpi=100)
 plt.show()

@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import re
 
 path_to_data = './m_data/02062017_nrcl/raw/'
-# data_file = 'm7_6GHz_closer.dat'
-data_file = 'm7_3GHz_further.dat'
+data_file = 'm7_5GHz_closer.dat'
+# data_file = 'm7_3GHz_further.dat'
 
 # loading the data
 data_raw = np.loadtxt(path_to_data+data_file, comments='#')
@@ -58,7 +58,7 @@ with open(path_to_data+data_file, 'r') as f:
         # print(line)
 
 # plotting the data
-fig1 = plt.figure()
+fig1 = plt.figure(figsize=(12, 4), dpi=100)
 ax1 = fig1.add_subplot(111)
 pos_f = ''
 if position == 2.0:
@@ -66,30 +66,38 @@ if position == 2.0:
     pos_f = 'close'
 else:
     pos = '1' + r'$\mu m$' + ' from'
-    pos_f = '1um from'
-fig1.suptitle('BLS Spectrum '+pos+' antenna\n'+'excitation at '+str(excitation_freq)+' GHz')
+    pos_f = '1um_from'
+# fig1.suptitle('BLS Spectrum '+pos+' antenna\n'+'excitation at '+str(excitation_freq)+' GHz')
 
-cmap = plt.get_cmap('jet')
+cmap = plt.get_cmap('magma')
 cmap.set_under('black')
 # cmap.set_over('black')
 eps1 = np.spacing(0)
-im = ax1.imshow(data_raw.T, origin='lower', aspect='auto', vmin=eps1, vmax=64, cmap=cmap)
+im = ax1.imshow(data_raw.T, origin='lower', aspect='auto', vmin=eps1, vmax=400, cmap=cmap, interpolation='nearest',
+                extent=(0, 100, freq_min, freq_max))
 
 print(data_raw.T.shape)
 
 # adjusting the axes ticks
 
-y_ticks = np.arange(0, data_raw.T.shape[0], 16)
-freq_tick_labels = np.linspace(freq_min, freq_max, len(y_ticks))
-freq_tick_labels = ["{0:.1f}".format(y_tick) for y_tick in freq_tick_labels]
-ax1.set_yticks(y_ticks)
-ax1.set_yticklabels(freq_tick_labels)
+# y_ticks = np.arange(0, data_raw.T.shape[0], 16)
+# freq_tick_labels = np.linspace(freq_min, freq_max, len(y_ticks))
+# freq_tick_labels = ["{0:.1f}".format(y_tick) for y_tick in freq_tick_labels]
+# ax1.set_yticks(y_ticks)
+# ax1.set_yticklabels(freq_tick_labels)
 
+ax1.set_ylim([-excitation_freq-1, -excitation_freq+1])
+ax1.set_xlim([0, 100])
 
 x_ticks = np.arange(0, data_raw.T.shape[1], 11)
 
+x_line1 = np.array([51 for i in range(10000)])
+y_line1 = np.linspace(-excitation_freq-1, -excitation_freq+1, 10000)
+ax1.plot(x_line1, y_line1, linestyle='--', linewidth=4.0, color='green', alpha=0.6)
+
 # x_tick_labels = np.linspace(x_offset, (data_raw.T.shape[1] - 1) * x_multiplier + x_offset, len(x_ticks))
-x_tick_labels = np.linspace(0, 16.5, 11)
+
+x_tick_labels = np.linspace(0, 16.5, 10)
 print(x_tick_labels)
 x_tick_labels = ["{0:.1f}".format(x_tick) for x_tick in x_tick_labels]
 ax1.set_xticks(x_ticks)
@@ -98,7 +106,7 @@ ax1.set_xticklabels(x_tick_labels)
 
 ax1.set_xlabel('position along antenna '+r'$(\mu m)$')
 # ax1.set_xlabel(x_axis_name)
-ax1.set_ylabel('Frequency (GHz)')
+ax1.set_ylabel('BLS Frequency (GHz)')
 
 cbar = fig1.colorbar(im)
 cbar.set_label('Intensity (a.u.)', rotation=270)
@@ -106,12 +114,12 @@ cbar.ax.get_yaxis().labelpad = 15
 # cbar.ax.set_yticklabels('')
 
 fig1.tight_layout()
-fig1.subplots_adjust(top=0.91, bottom=0.09)
+fig1.subplots_adjust(top=0.94, bottom=0.15)
 
 file_info = file_info.split('\\')
 print(file_info)
-save_name = file_info[-1][:-5] + ' ' + str(excitation_freq)[0] + 'GHz ' + pos_f + '_RAW' + '.png'
+save_name = file_info[-1][:-5] + '_' + str(excitation_freq)[0] + 'GHz_' + pos_f + '_RAW' + '.pdf'
 # save_name = save_name.replace('both', pos)
 print(save_name)
-# plt.savefig('./output_pics/nrcl/'+save_name, format='png', dpi=100)
+plt.savefig('./output_pics/nrcl/'+save_name, format='pdf', dpi=100)
 plt.show()

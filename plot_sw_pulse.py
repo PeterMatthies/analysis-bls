@@ -36,10 +36,9 @@ data_5um_spec = np.loadtxt(infile_5um_sp, comments='#')
 freq_5um = data_5um_spec[:, 0]
 
 
-
 time_vals = np.arange(0, 513, 1) * 0.1
 
-fig1 = plt.figure(figsize=(12, 4),dpi=100, tight_layout=True)
+fig1 = plt.figure(figsize=(12, 4), dpi=100, tight_layout=True)
 # title_name =  'time resolved measurement'
 #fig1.suptitle(title_name, fontweight='bold', fontsize=12)
 cmap = plt.get_cmap('jet')
@@ -89,7 +88,7 @@ for ax in fig1.axes:
     plt.sca(ax)
     plt.xticks(rotation=90)
 
-cbar = fig1.co
+cbar = fig1.colorbar(im1)
 cbar.set_label('Intensity (a.u.)', rotation=270)
 cbar.ax.get_yaxis().labelpad = 15
 # plt.xticks(rotation=70)
