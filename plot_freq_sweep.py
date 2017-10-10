@@ -2,19 +2,22 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-path_to_data = './m_data/25052017_nrcl/'
-# data_file = 'm6_10mT_extracted_both.txt'
-data_file = 'm3_50mT_extracted_both.txt'
+path_to_data = './m_data/29052017_nrcl/'
+data_file = 'm3_extracted_both.txt'
+# data_file = 'm6_-10mT_extracted_both.txt'
+# data_file = 'm3_50mT_extracted_both.txt'
 # data_file = 'p10mT_pos1and2.dat'
 
 
 fig = plt.figure()
 
 ax1 = fig.add_subplot(111)
-ax1.set_xlabel('Frequency(GHz)')
-ax1.set_ylabel('Intensity (a.u.)')
+ax1.set_xlabel('Frequency(GHz)', fontsize=15)
+ax1.set_ylabel('Intensity (a.u.)', fontsize=15)
+ax1.tick_params(axis='both', which='major', labelsize=12)
 
-magn_field = '50mT'
+
+magn_field = '-50mT'
 # fig.suptitle('Freq Spectra for '+magn_field)
 
 data = np.loadtxt(path_to_data + data_file, comments='#')
@@ -34,13 +37,15 @@ ax1.plot(x_pos2, y_pos2, color='red', label='below antenna (-k)')
 # ax1.set_yticks(yticks_new)
 # ax1.ticklabel_format(axis='x', style='sci', scilimits=(-3, 3), useOffset=False)
 # ax1.xaxis.major.formatter._useMathText = True
-# ax1.set_xlim([5e9, 11e9])
-# ax1.set_ylim([0, 1.001])
+ax1.set_xlim([3, 9])
+max_y = max(np.maximum(y_pos1, y_pos2))
+print(max_y)
+ax1.set_ylim([0, max_y+0.05*max_y])
 
 
 fig.tight_layout()
-fig.subplots_adjust(top=0.92)
+fig.subplots_adjust(top=0.95)
 plt.grid()
-plt.legend()
-plt.savefig('./output_pics/nrcl/'+'freq_spec_d4_'+magn_field+'.pdf', format='pdf', dpi=1000)
+plt.legend(loc=1, bbox_to_anchor=(1.05, 1.0), prop={'size': 14})
+plt.savefig('./output_pics/nrcl/'+'freq_spec_d4_'+magn_field+'.pdf', format='pdf', dpi=100)
 plt.show()

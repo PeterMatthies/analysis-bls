@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import re
 
 path_to_data = './m_data/30052017_nrcl/'
-data_file = 'm4_raw_pos1.dat'
+data_file = 'm3_raw_pos1.dat'
 # data_file = 'm3_raw_pos1_50mT.dat'
 
 # loading the data
@@ -84,6 +84,7 @@ freq_tick_labels = np.linspace(freq_min, freq_max, len(y_ticks))
 freq_tick_labels = ["{0:.1f}".format(y_tick) for y_tick in freq_tick_labels]
 ax1.set_yticks(y_ticks)
 ax1.set_yticklabels(freq_tick_labels)
+ax1.tick_params(axis='both', which='major', labelsize=12)
 
 
 x_ticks = np.arange(0, data_raw.T.shape[1], 6)
@@ -97,17 +98,19 @@ ax1.set_xticks(x_ticks)
 ax1.set_xticklabels(x_tick_labels)
 
 
-ax1.set_xlabel('Excitation Freq. (GHz)')
+ax1.set_xlabel('Excitation Freq. (GHz)', fontsize=15)
 # ax1.set_xlabel(x_axis_name)
-ax1.set_ylabel('BLS Frequency (GHz)')
+ax1.set_ylabel('BLS Frequency (GHz)', fontsize=15)
 
-cbar = fig1.colorbar(im)
-cbar.set_label('Intensity (a.u.)', rotation=270)
+cbar_ax = fig1.add_axes([0.92, 0.15, 0.02, 0.8])
+cbar = fig1.colorbar(im, cax=cbar_ax)
+cbar.set_label('Intensity', rotation=270, fontsize=12)
 cbar.ax.get_yaxis().labelpad = 15
-# cbar.ax.set_yticklabels('')
+cbar.ax.set_yticklabels('')
+cbar.ax.tick_params(axis='y', which='both', length=0)
 
 fig1.tight_layout()
-fig1.subplots_adjust(top=0.95, bottom=0.09)
+fig1.subplots_adjust(right=0.9, left=0.15, top=0.95)
 
 file_info = file_info.split('\\')
 print(file_info)
