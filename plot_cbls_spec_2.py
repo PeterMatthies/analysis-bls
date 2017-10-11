@@ -86,33 +86,33 @@ data_files_2 = [f for f in listdir(path_to_data_2) if isfile(join(path_to_data_2
 
 incident_angles = []
 peak_centers = []
-for data_file in data_files_1:
+for data_file in data_files_2:
     angle = float(data_file[-9:-7])
     print(angle)
     if angle == 70:
         incident_angles.append(angle)
-        fitted_params = fit_spec(path_to_data_1 + data_file, -15.5, -3, 0.25, -12.0, 50)[0]
+        fitted_params = fit_spec(path_to_data_2 + data_file, -15.5, -3, 0.25, -12.0, 50)[0]
         peak_centers.append(abs(fitted_params[1]))
     elif angle == 80:
         incident_angles.append(angle)
-        fitted_params = fit_spec(path_to_data_1 + data_file, -15.5, -3, 0.25, -12.0, 50)[0]
+        fitted_params = fit_spec(path_to_data_2 + data_file, -15.5, -3, 0.25, -12.0, 50)[0]
         peak_centers.append(abs(fitted_params[1]))
     elif angle == 55:
         incident_angles.append(angle)
-        fitted_params = fit_spec(path_to_data_1 + data_file, -15.5, -3, 0.25, -12.0, 50)[0]
+        fitted_params = fit_spec(path_to_data_2 + data_file, -15.5, -3, 0.25, -12.0, 50)[0]
         peak_centers.append(abs(fitted_params[1]))
     elif angle == 20:
         incident_angles.append(angle)
-        fitted_params =fit_spec(path_to_data_1 + data_file, -15.5, -3, 0.25, -9.0, 50)[0]
+        fitted_params =fit_spec(path_to_data_2 + data_file, -15.5, -3, 0.25, -9.0, 50)[0]
         peak_centers.append(abs(fitted_params[1]))
     elif angle == 10:
         incident_angles.append(angle)
-        fitted_params = fit_spec(path_to_data_1 + data_file, -15.5, -3, 0.25, -7.0, 50)[0]
+        fitted_params = fit_spec(path_to_data_2 + data_file, -15.5, -3, 0.25, -7.0, 50)[0]
         peak_centers.append(abs(fitted_params[1]))
     else:
         incident_angles.append(angle)
         print(data_file)
-        fitted_params = fit_spec(path_to_data_1 + data_file, -15.5, -3, 0.25, -10.0, 50)[0]
+        fitted_params = fit_spec(path_to_data_2 + data_file, -15.5, -3, 0.25, -12.0, 50)[0]
         peak_centers.append(abs(fitted_params[1]))
 
 incident_angles_2 = []
@@ -131,10 +131,10 @@ ax1 = fig1.add_subplot(111)
 
 incident_angles = np.array(incident_angles)
 incident_angles_2 = np.array(incident_angles_2)
-# incident_angles -= 3.0
+incident_angles += 3.0
 incident_angles_2 -= 3.0
 incident_angles_2 = abs(incident_angles_2)
-print(incident_angles)
+print("*******", incident_angles)
 q_parallel = (4 * np.pi / 532e-9) * np.sin(incident_angles * np.pi / 180.0) / 100
 q_parallel_2 = (4 * np.pi / 532e-9) * np.sin(incident_angles_2 * np.pi / 180.0) / 100
 print(np.pi*180*(np.pi*4/532e-9)/100)
@@ -142,8 +142,8 @@ y_err_1 = np.array([0.075]*len(peak_centers))
 y_err_2 = np.array([0.075]*len(peak_centers_2))
 q_err_1 = np.array([(4*np.pi / 532e-7)*np.pi/180]*len(q_parallel))
 q_err_2 = np.array([(4*np.pi / 532e-7)*np.pi/180]*len(q_parallel_2))
-ax1.scatter(q_parallel, peak_centers, color='blue', marker='o', label='Stokes, '+r'$\theta_{inc} > 0$ '+', 50mT')
-ax1.scatter(q_parallel_2, peak_centers_2, color='orange', marker='o', label='Anti-Stokes, '+r'$\theta_{inc} < 0$ '+', 50mT')
+ax1.scatter(q_parallel, peak_centers, color='blue', marker='o', label='Stokes, '+r'$\theta<0$ '+ ', 50mT')
+ax1.scatter(q_parallel_2, peak_centers_2, color='orange', marker='o', label='Anti-Stokes, '+r'$\theta<0$ '+', 50mT')
 ax1.errorbar(q_parallel, peak_centers, xerr=q_err_1, yerr=y_err_1 , linestyle='None', color='black')
 ax1.errorbar(q_parallel_2, peak_centers_2, xerr=q_err_2,yerr=y_err_2, linestyle='None',color='black')
 # ax1.scatter(incident_angles, peak_centers, label='50mT')
@@ -155,12 +155,12 @@ ax1.set_xlabel(r'$q_{||}(cm^{-1}$)', fontsize=16)
 ax1.set_ylabel('Frequency(GHz)', fontsize=16)
 ax1.tick_params(axis='both', which='major', labelsize=14)
 ax1.set_xticks(np.linspace(0.5e5, 2.5e5, 9))
-ax1.set_xlim([0.48e5,2.35e5])
+ax1.set_xlim([0.45e5,2.35e5])
 
 fig1.tight_layout()
-fig1.subplots_adjust(top=0.95, bottom=0.14)
+fig1.subplots_adjust(top=0.95, bottom=0.12)
 plt.legend(loc=2, prop={'size': 16})
 plt.grid()
-save_name = 'PyRef_50mT_dispersion_curve_incorrect.pdf'
+save_name = 'PyRef_50mT_dispersion_curve_correct.pdf'
 plt.savefig('./output_pics/'+save_name, format='pdf', dpi=100)
 plt.show()
