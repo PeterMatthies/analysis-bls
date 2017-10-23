@@ -32,8 +32,8 @@ def fit_spec(filename, freq_wind_1, freq_wind_2, peak_hwhm, peak_center, peak_in
     print(freq_wind_1+2.5)
     print(freq_wind_2-3.0)
 
-    ind_bg_low = (x > freq_wind_1) & (x < freq_wind_1+2.5)
-    ind_bg_high = (x > freq_wind_2-3.0) & (x < freq_wind_2)
+    ind_bg_low = (x > freq_wind_1) & (x < freq_wind_1+0.5)
+    ind_bg_high = (x > freq_wind_2-0.5) & (x < freq_wind_2)
 
     x_bg = np.concatenate((x[ind_bg_low], x[ind_bg_high]))
     y_bg = np.concatenate((y[ind_bg_low], y[ind_bg_high]))
@@ -161,6 +161,6 @@ fig1.tight_layout()
 fig1.subplots_adjust(top=0.95, bottom=0.14)
 plt.legend(loc=2, prop={'size': 16})
 plt.grid()
-save_name = 'PyRef_50mT_dispersion_curve_incorrect.pdf'
-plt.savefig('./output_pics/'+save_name, format='pdf', dpi=100)
-plt.show()
+# save_name = 'PyRef_50mT_dispersion_curve_incorrect.pdf'
+# plt.savefig('./output_pics/'+save_name, format='pdf', dpi=100)
+# plt.show()

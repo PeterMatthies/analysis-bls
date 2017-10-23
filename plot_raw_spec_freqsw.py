@@ -72,13 +72,37 @@ cmap.set_under('black')
 # cmap.set_over('black')
 eps1 = np.spacing(0)
 im = ax1.imshow(data_raw.T, origin='lower', aspect='auto', vmin=eps1, vmax=100, cmap=cmap, interpolation='nearest')
+# ____________________________________________ for data summing
+# ax1.axhline(0.0, color='white')
+# ax1.axhline(59.0, color='white')
+#
+# ax1.axvline(0.0, color='white')
+# ax1.axvline(20.0, color='white')
+#
+# fig2 = plt.figure()
+# ax2 = fig2.add_subplot(111)
+# cmap = plt.get_cmap('magma')
+# cmap.set_under('black')
+cmap.set_over('black')
+# eps1 = np.spacing(0)
+# im2 = ax2.imshow(data_raw.T[:60, :20], origin='lower', aspect='auto', vmin=eps1, vmax=100, cmap=cmap,
+#                  interpolation='nearest')
+# thermal_data = data_raw.T[:60, :20]
+# print(thermal_data.sum(0))
+# print(ax2.get_xticks())
+print(thermal_data.sum(1))
+# fig3 = plt.figure()
+# ax3 = fig3.add_subplot(111)
+# freqs = np.linspace (5.0, 7.0, 20)
+# ax3.plot(freqs, thermal_data.sum(0))
+# ____________________________________________________
 
 print(data_raw.T.shape)
-
 # adjusting the axes ticks
 
 y_ticks = np.arange(0, data_raw.T.shape[0], 16)
 print(len(y_ticks))
+
 
 freq_tick_labels = np.linspace(freq_min, freq_max, len(y_ticks))
 freq_tick_labels = ["{0:.1f}".format(y_tick) for y_tick in freq_tick_labels]
@@ -109,6 +133,7 @@ cbar.ax.get_yaxis().labelpad = 15
 cbar.ax.set_yticklabels('')
 cbar.ax.tick_params(axis='y', which='both', length=0)
 
+
 fig1.tight_layout()
 fig1.subplots_adjust(right=0.9, left=0.15, top=0.95)
 
@@ -116,6 +141,6 @@ file_info = file_info.split('\\')
 print(file_info)
 save_name = file_info[-1][:-5] + '_' + 'RAW' + '.pdf'
 save_name = save_name.replace('both', pos)
-print(save_name)
-plt.savefig('./output_pics/nrcl/'+save_name, format='pdf', dpi=100)
+# print(save_name)
+# plt.savefig('./output_pics/nrcl/'+save_name, format='pdf', dpi=100)
 plt.show()
