@@ -33,11 +33,19 @@ ax2 = fig2.add_subplot(111)
 
 print(data_x_1[data_x_1 >= 1.67e5][0])
 print(data_x_1[data_x_1 <= 1.67e5][-1])
+
 ind_k = np.where(data_x_1 <= 1.67e5)[0][-1]
 print(data_x_1[ind_k])
 print(data_x_1[-ind_k-1])
 freq_diff_k45 = data_y_1[ind_k] - data_y_1[-ind_k-1]
 print('freq diff for 45 deg inc light: ', freq_diff_k45)
+
+ind_k_2 = np.where(data_x_2 <= 1.67e5)[0][-1]
+print(data_x_2[ind_k_2])
+print(data_x_2[-ind_k_2-1])
+freq_diff_k45_2 = data_y_2[ind_k_2] - data_y_2[-ind_k_2-1]
+print('freq diff for 45 deg inc light: ', freq_diff_k45_2)
+
 
 pos_k_1 = data_x_1 > 0
 neg_k_1 = data_x_1 < 0
