@@ -2,9 +2,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-path_to_data = './m_data/29052017_nrcl/'
-data_file = 'm3_extracted_both.txt'
-# data_file = 'm6_-10mT_extracted_both.txt'
+path_to_data = './m_data/30052017_nrcl/'
+# data_file = 'm3_extracted_both.txt'
+data_file = 'm6_10mT_extracted_both.txt'
 # data_file = 'm3_50mT_extracted_both.txt'
 # data_file = 'p10mT_pos1and2.dat'
 
@@ -17,7 +17,7 @@ ax1.set_ylabel('Intensity (a.u.)', fontsize=15)
 ax1.tick_params(axis='both', which='major', labelsize=12)
 
 
-magn_field = '-50mT'
+magn_field = '10mT'
 # fig.suptitle('Freq Spectra for '+magn_field)
 
 data = np.loadtxt(path_to_data + data_file, comments='#')
@@ -46,6 +46,7 @@ ax1.set_ylim([0, max_y+0.05*max_y])
 fig.tight_layout()
 fig.subplots_adjust(top=0.95)
 plt.grid()
-plt.legend(loc=1, bbox_to_anchor=(1.05, 1.0), prop={'size': 14})
-plt.savefig('./output_pics/nrcl/'+'freq_spec_d4_'+magn_field+'.pdf', format='pdf', dpi=100)
+# plt.legend(loc=1, bbox_to_anchor=(1.05, 1.0), prop={'size': 14})
+plt.legend(loc=1, prop={'size': 14})
+plt.savefig('./output_pics/nrcl/'+'freq_spec_f3_'+magn_field+'.pdf', format='pdf', dpi=100)
 plt.show()

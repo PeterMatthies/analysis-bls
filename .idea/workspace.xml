@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/plot_theory_dispersions.py" line="70" mnemonic="9" />
+    <bookmark url="file://$PROJECT_DIR$/plot_theory_dispersions.py" line="71" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e4b2f94-fb04-4071-a07e-c3278e33cde4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plot_moke_data.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plot_freq_sweep.py" afterPath="$PROJECT_DIR$/plot_freq_sweep.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plot_theory_caustics.py" afterPath="$PROJECT_DIR$/plot_theory_caustics.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plot_theory_dispersions.py" afterPath="$PROJECT_DIR$/plot_theory_dispersions.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +35,7 @@
     <SUITE FILE_PATH="coverage/analysis_bls$plot_caustics.coverage" NAME="plot_caustics Coverage Results" MODIFIED="1496747401967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/analysis-bls$plot_raw_spec_caustics.coverage" NAME="plot_raw_spec_caustics Coverage Results" MODIFIED="1507375781121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/analysis-bls$plot_field_sweep.coverage" NAME="plot_field_sweep Coverage Results" MODIFIED="1507914513564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/analysis-bls$plot_freq_sweep.coverage" NAME="plot_freq_sweep Coverage Results" MODIFIED="1507142573950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/analysis-bls$plot_freq_sweep.coverage" NAME="plot_freq_sweep Coverage Results" MODIFIED="1509225567949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/analysis-bls$plot_cbls_spec.coverage" NAME="plot_cbls_spec Coverage Results" MODIFIED="1508660062378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/analysis_bls$calc_field.coverage" NAME="calc_field Coverage Results" MODIFIED="1491562446156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/analysis_bls$plot_freq_sweep.coverage" NAME="plot_freq_sweep Coverage Results" MODIFIED="1496384771342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -43,9 +44,9 @@
     <SUITE FILE_PATH="coverage/analysis_bls$phase_res_plot.coverage" NAME="phase_res_plot Coverage Results" MODIFIED="1491209392747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/analysis_bls$plot_raw_spec.coverage" NAME="plot_raw_spec Coverage Results" MODIFIED="1499088564162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/analysis-bls$plot_moke_data.coverage" NAME="plot_moke_data Coverage Results" MODIFIED="1508885584921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/analysis-bls$plot_theory_caustics.coverage" NAME="plot_theory_caustics Coverage Results" MODIFIED="1508689485473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/analysis-bls$plot_theory_caustics.coverage" NAME="plot_theory_caustics Coverage Results" MODIFIED="1509291870571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/analysis-bls$plot_cbls_tests.coverage" NAME="plot_cbls_tests Coverage Results" MODIFIED="1508708302153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/analysis-bls$plot_theory_dispersions.coverage" NAME="plot_theory_dispersions Coverage Results" MODIFIED="1508924714749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/analysis-bls$plot_theory_dispersions.coverage" NAME="plot_theory_dispersions Coverage Results" MODIFIED="1509294138221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -71,6 +72,16 @@
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plot_freq_sweep.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plot_freq_sweep.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -136,8 +147,8 @@
       <file leaf-file-name="plot_theory_dispersions.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plot_theory_dispersions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+            <state relative-caret-position="37">
+              <caret line="27" column="56" lean-forward="false" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -148,8 +159,8 @@
       <file leaf-file-name="plot_theory_caustics.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plot_theory_caustics.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="45" selection-end-column="29" />
+            <state relative-caret-position="428">
+              <caret line="67" column="16" lean-forward="false" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -194,7 +205,6 @@
         <option value="$PROJECT_DIR$/plot_raw_spec.py" />
         <option value="$PROJECT_DIR$/plot_raw_spec_fieldsw.py" />
         <option value="$PROJECT_DIR$/plot_tr_data.py" />
-        <option value="$PROJECT_DIR$/plot_freq_sweep.py" />
         <option value="$PROJECT_DIR$/plot_sw_pulse.py" />
         <option value="$PROJECT_DIR$/plot_caustics.py" />
         <option value="$PROJECT_DIR$/plot_raw_spec_caustics.py" />
@@ -202,11 +212,12 @@
         <option value="$PROJECT_DIR$/plot_field_sweep.py" />
         <option value="$PROJECT_DIR$/plot_cbls_spec.py" />
         <option value="$PROJECT_DIR$/plot_cbls_spec_2.py" />
-        <option value="$PROJECT_DIR$/plot_theory_caustics.py" />
         <option value="$PROJECT_DIR$/plot_full_cbls.py" />
         <option value="$PROJECT_DIR$/plot_cbls_tests.py" />
         <option value="$PROJECT_DIR$/plot_raw_spec_freqsw.py" />
         <option value="$PROJECT_DIR$/plot_moke_data.py" />
+        <option value="$PROJECT_DIR$/plot_freq_sweep.py" />
+        <option value="$PROJECT_DIR$/plot_theory_caustics.py" />
         <option value="$PROJECT_DIR$/plot_theory_dispersions.py" />
       </list>
     </option>
@@ -280,7 +291,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CFB_Ir_CFB" />
+              <option name="myItemId" value="30052017_nrcl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -430,24 +441,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.plot_theory_dispersions">
-    <configuration default="false" name="plot_cbls_tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="analysis-bls" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plot_cbls_tests.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="plot_theory_dispersions" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -462,24 +455,6 @@
       <module name="analysis-bls" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plot_theory_dispersions.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="plot_full_cbls" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="analysis-bls" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plot_full_cbls.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -516,6 +491,42 @@
       <module name="analysis-bls" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plot_moke_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="plot_freq_sweep" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="analysis-bls" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plot_freq_sweep.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="plot_theory_caustics" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="analysis-bls" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plot_theory_caustics.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -811,19 +822,19 @@
       <item index="1" class="java.lang.String" itemvalue="Python.phase_res_plot_rac2_5p1GHz_v2" />
       <item index="2" class="java.lang.String" itemvalue="Python.plot_tr_data" />
       <item index="3" class="java.lang.String" itemvalue="Python.plot_raw_circular_caustics" />
-      <item index="4" class="java.lang.String" itemvalue="Python.plot_cbls_tests" />
-      <item index="5" class="java.lang.String" itemvalue="Python.plot_theory_dispersions" />
-      <item index="6" class="java.lang.String" itemvalue="Python.plot_full_cbls" />
-      <item index="7" class="java.lang.String" itemvalue="Python.plot_raw_spec_freqsw" />
-      <item index="8" class="java.lang.String" itemvalue="Python.plot_moke_data" />
+      <item index="4" class="java.lang.String" itemvalue="Python.plot_theory_dispersions" />
+      <item index="5" class="java.lang.String" itemvalue="Python.plot_raw_spec_freqsw" />
+      <item index="6" class="java.lang.String" itemvalue="Python.plot_moke_data" />
+      <item index="7" class="java.lang.String" itemvalue="Python.plot_freq_sweep" />
+      <item index="8" class="java.lang.String" itemvalue="Python.plot_theory_caustics" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.plot_theory_dispersions" />
-        <item index="1" class="java.lang.String" itemvalue="Python.plot_moke_data" />
-        <item index="2" class="java.lang.String" itemvalue="Python.plot_raw_spec_freqsw" />
-        <item index="3" class="java.lang.String" itemvalue="Python.plot_cbls_tests" />
-        <item index="4" class="java.lang.String" itemvalue="Python.plot_full_cbls" />
+        <item index="1" class="java.lang.String" itemvalue="Python.plot_theory_caustics" />
+        <item index="2" class="java.lang.String" itemvalue="Python.plot_freq_sweep" />
+        <item index="3" class="java.lang.String" itemvalue="Python.plot_moke_data" />
+        <item index="4" class="java.lang.String" itemvalue="Python.plot_raw_spec_freqsw" />
       </list>
     </recent_temporary>
   </component>
@@ -974,14 +985,21 @@
       <option name="project" value="LOCAL" />
       <updated>1508740108428</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="update to the theory dispersions plotting, new script for the moke data plotting">
+      <created>1508968344216</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1508968344216</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="633" y="23" width="1287" height="999" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36985236" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36985236" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32296136" sideWeight="0.4055944" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1044,16 +1062,12 @@
     <MESSAGE value="updated the raw plotting scripts to use magma color map, updated the sweeps to not be normalized for better representation" />
     <MESSAGE value="updated the cbls scripts" />
     <MESSAGE value="latest updates to scripts, added plotting scripts for theory curves" />
-    <option name="LAST_COMMIT_MESSAGE" value="latest updates to scripts, added plotting scripts for theory curves" />
+    <MESSAGE value="update to the theory dispersions plotting, new script for the moke data plotting" />
+    <option name="LAST_COMMIT_MESSAGE" value="update to the theory dispersions plotting, new script for the moke data plotting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/plot_theory_caustics.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/plot_cbls_tests.py</url>
           <line>40</line>
@@ -1315,14 +1329,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plot_freq_sweep.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plot_caustics.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -1354,16 +1360,6 @@
         <state relative-caret-position="-30">
           <caret line="80" column="1" lean-forward="true" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plot_theory_caustics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="45" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1439,10 +1435,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/plot_freq_sweep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plot_theory_caustics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="67" column="16" lean-forward="false" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/plot_theory_dispersions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+        <state relative-caret-position="37">
+          <caret line="27" column="56" lean-forward="false" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
