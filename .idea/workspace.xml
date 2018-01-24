@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e4b2f94-fb04-4071-a07e-c3278e33cde4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fit_field_sweep.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fit_freq_sweep.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plot_freq_sweep_ch2700.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plot_line_scan_ch2700.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/analysis-bls.iml" afterPath="$PROJECT_DIR$/.idea/analysis-bls.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plot_moke_data.py" afterPath="$PROJECT_DIR$/plot_moke_data.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,28 +17,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/analysis_bls$fit_freq_sweep.coverage" NAME="fit_freq_sweep Coverage Results" MODIFIED="1510069896266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/analysis_bls$plot_field_sweep.coverage" NAME="plot_field_sweep Coverage Results" MODIFIED="1496402290065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/analysis_bls$plot_raw_spec_fieldsw.coverage" NAME="plot_raw_spec_fieldsw Coverage Results" MODIFIED="1499155744379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/analysis_bls$plot_tr_data.coverage" NAME="plot_tr_data Coverage Results" MODIFIED="1501756991310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/analysis_bls$plot_raw_spec_freqsw.coverage" NAME="plot_raw_spec_freqsw Coverage Results" MODIFIED="1505464794317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/analysis_bls$calc_oersted.coverage" NAME="calc_oersted Coverage Results" MODIFIED="1491555264208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/analysis_bls$fit_field_sweep.coverage" NAME="fit_field_sweep Coverage Results" MODIFIED="1510069660721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/analysis_bls$plot_freq_sweep.coverage" NAME="plot_freq_sweep Coverage Results" MODIFIED="1496384771342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/analysis_bls$plot_caustics.coverage" NAME="plot_caustics Coverage Results" MODIFIED="1496747401967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/analysis_bls$phase_res_plot_rac2_5p1GHz.coverage" NAME="phase_res_plot_rac2_5p1GHz Coverage Results" MODIFIED="1491219521226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/analysis_bls$calc_oersted_new.coverage" NAME="calc_oersted_new Coverage Results" MODIFIED="1491835391646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/analysis_bls$phase_res_plot.coverage" NAME="phase_res_plot Coverage Results" MODIFIED="1491209392747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/analysis_bls$plot_nrcl.coverage" NAME="plot_nrcl Coverage Results" MODIFIED="1496307860176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/analysis-bls$analysis_main.coverage" NAME="analysis_main Coverage Results" MODIFIED="1490735431042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/analysis_bls$plot_lukas_test.coverage" NAME="plot_lukas_test Coverage Results" MODIFIED="1505465881608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/analysis_bls$plot_cbls_spec.coverage" NAME="plot_cbls_spec Coverage Results" MODIFIED="1501849111175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/analysis_bls$phase_res_plot_rac2_5p1GHz_v2.coverage" NAME="phase_res_plot_rac2_5p1GHz_v2 Coverage Results" MODIFIED="1491227940694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/analysis_bls$plot_sw_pulse.coverage" NAME="plot_sw_pulse Coverage Results" MODIFIED="1505464823741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/analysis_bls$calc_field.coverage" NAME="calc_field Coverage Results" MODIFIED="1491562446156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/analysis_bls$plot_cbls_tests.coverage" NAME="plot_cbls_tests Coverage Results" MODIFIED="1501838206522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/analysis_bls$analysis_main.coverage" NAME="analysis_main Coverage Results" MODIFIED="1491383165250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/analysis_bls$plot_raw_spec_caustics.coverage" NAME="plot_raw_spec_caustics Coverage Results" MODIFIED="1501247597741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/analysis-bls$plot_line_scan_ch2700.coverage" NAME="plot_line_scan_ch2700 Coverage Results" MODIFIED="1516807924959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/analysis-bls$plot_freq_sweep.coverage" NAME="plot_freq_sweep Coverage Results" MODIFIED="1516798909646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/analysis-bls$plot_moke_data.coverage" NAME="plot_moke_data Coverage Results" MODIFIED="1516802474379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/analysis-bls$plot_freq_sweep_ch2700.coverage" NAME="plot_freq_sweep_ch2700 Coverage Results" MODIFIED="1516807944371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/analysis-bls$calc_oersted_new.coverage" NAME="calc_oersted_new Coverage Results" MODIFIED="1516798657143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/analysis-bls$analysis_main.coverage" NAME="analysis_main Coverage Results" MODIFIED="1490701101563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -45,11 +30,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="plot_raw_spec_caustics.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plot_raw_spec_caustics.py">
+      <file leaf-file-name="plot_freq_sweep_ch2700.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/plot_freq_sweep_ch2700.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2142">
-              <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+            <state relative-caret-position="186">
+              <caret line="28" column="66" lean-forward="true" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -57,31 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plot_raw_spec_fieldsw.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plot_raw_spec_fieldsw.py">
+      <file leaf-file-name="plot_line_scan_ch2700.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plot_line_scan_ch2700.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plot_raw_spec_freqsw.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plot_raw_spec_freqsw.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plot_cbls_tests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plot_cbls_tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="10" selection-end-column="97" />
+            <state relative-caret-position="410">
+              <caret line="46" column="44" lean-forward="false" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -89,48 +54,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plot_cbls_spec_2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plot_cbls_spec_2.py">
+      <file leaf-file-name="plot_field_sweep.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plot_field_sweep.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="62" />
+            <state relative-caret-position="442">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="74" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fit_field_sweep.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fit_field_sweep.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="116" column="70" lean-forward="true" selection-start-line="115" selection-start-column="0" selection-end-line="116" selection-end-column="70" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fit_freq_sweep.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fit_freq_sweep.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="phase_res_plot_rfc1_6GHz.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phase_res_plot_rfc1_6GHz.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2268">
-              <caret line="111" column="71" lean-forward="false" selection-start-line="111" selection-start-column="54" selection-end-line="111" selection-end-column="71" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -144,12 +75,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>connect</find>
-      <find>grid_cb</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -157,31 +82,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/plot_res_curve.py" />
-        <option value="$PROJECT_DIR$/phase_res_plot.py" />
-        <option value="$PROJECT_DIR$/phase_res_plot_rac2_5p1GHz.py" />
         <option value="$PROJECT_DIR$/extract_data.py" />
-        <option value="$PROJECT_DIR$/output_pics/phase_res_plot_rac2_5p1GHz_v2.py" />
-        <option value="$PROJECT_DIR$/phase_res_plot_rac2_5p1GHz_v2.py" />
-        <option value="$PROJECT_DIR$/plotting_functions.py" />
-        <option value="$PROJECT_DIR$/calc_oersted.py" />
-        <option value="$PROJECT_DIR$/calc_field.py" />
-        <option value="$PROJECT_DIR$/calc_oersted_new.py" />
-        <option value="$PROJECT_DIR$/plot_tr_data.py" />
         <option value="$PROJECT_DIR$/analysis_main.py" />
-        <option value="$PROJECT_DIR$/plot_nrcl.py" />
+        <option value="$PROJECT_DIR$/plotting_functions.py" />
+        <option value="$PROJECT_DIR$/calc_oersted_new.py" />
         <option value="$PROJECT_DIR$/plot_freq_sweep.py" />
-        <option value="$PROJECT_DIR$/plot_raw_spec.py" />
-        <option value="$PROJECT_DIR$/plot_field_sweep.py" />
-        <option value="$PROJECT_DIR$/plot_caustics.py" />
-        <option value="$PROJECT_DIR$/plot_raw_spec_fieldsw.py" />
-        <option value="$PROJECT_DIR$/plot_raw_spec_caustics.py" />
-        <option value="$PROJECT_DIR$/plot_cbls_spec.py" />
-        <option value="$PROJECT_DIR$/plot_raw_spec_freqsw.py" />
-        <option value="$PROJECT_DIR$/plot_lukas_test.py" />
-        <option value="$PROJECT_DIR$/plot_cbls_tests.py" />
-        <option value="$PROJECT_DIR$/plot_cbls_spec_2.py" />
-        <option value="$PROJECT_DIR$/fit_field_sweep.py" />
-        <option value="$PROJECT_DIR$/fit_freq_sweep.py" />
+        <option value="$PROJECT_DIR$/plot_moke_data.py" />
+        <option value="$PROJECT_DIR$/plot_freq_sweep_ch2700.py" />
+        <option value="$PROJECT_DIR$/plot_line_scan_ch2700.py" />
       </list>
     </option>
   </component>
@@ -192,8 +100,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1876" />
-    <option name="height" value="1392" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -239,8 +149,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,12 +158,6 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/output_pics" />
-    </key>
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
     <UpdatedFiles>
@@ -272,14 +176,8 @@
           <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/analysis-bls.iml</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/misc.xml</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_caustics.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_cbls_spec.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_cbls_tests.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_field_sweep.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_freq_sweep.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_raw_spec_caustics.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_raw_spec_freqsw.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_sw_pulse.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/calc_field.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/calc_oersted_new.py</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -287,6 +185,43 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/fit_field_sweep.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/fit_freq_sweep.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/01062017_nrcl/field_values_m1.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/01062017_nrcl/field_values_m2.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/01062017_nrcl/m1_extracted_both.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/01062017_nrcl/m1_raw_pos1.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/01062017_nrcl/m1_raw_pos2.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/01062017_nrcl/m2_extracted_both.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/01062017_nrcl/m2_raw_pos1.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/01062017_nrcl/m2_raw_pos2.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/extracted/m7_3GHz_caustics.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/extracted/m7_3p5GHz_caustics.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/extracted/m7_4GHz_caustics.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/extracted/m7_4p5GHz_caustics.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/extracted/m7_5GHz_caustics.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/extracted/m7_5p5GHz_caustics.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/extracted/m7_6GHz_caustics.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/extracted/m7_pos_dim1.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/extracted/m7_pos_dim2.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/field_values_m2.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/m2_extracted_both.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/m2_raw_pos1.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/m2_raw_pos2.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/raw/m7_3GHz_closer.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/raw/m7_3GHz_further.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/raw/m7_3p5GHz_closer.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/raw/m7_3p5GHz_further.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/raw/m7_4GHz_closer.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/raw/m7_4GHz_further.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/raw/m7_4p5GHz_closer.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/raw/m7_4p5GHz_further.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/raw/m7_5GHz_closer.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/raw/m7_5GHz_further.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/raw/m7_5p5GHz_closer.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/raw/m7_5p5GHz_further.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/raw/m7_6GHz_closer.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/raw/m7_6GHz_further.dat</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/15102017_dispersions/CoFeBIrCoFeB-dispersion.dat</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/15102017_dispersions/Isofrequency_3GHz-d1_10d2_10Ms1_1250Ms2_1250-CFB-Ir-CFB.txt</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/15102017_dispersions/Isofrequency_3GHz-d1_6d2_6Ms1_800Ms2_800-Py-Cu-Py.txt</PATH>
@@ -296,12 +231,90 @@
           <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/15102017_dispersions/Isofrequency_5GHz-d1_6d2_6Ms1_800Ms2_800-Py-Cu-Py.txt</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/15102017_dispersions/PyCuPy-dispersion.dat</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/15102017_dispersions/PyCuPy-dispersion_1.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/00mT_pos1_freqsweep.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/00mT_pos2_freqsweep.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/m1mT_pos1_freqsweep.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/m1mT_pos2_freqsweep.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/m2mT_pos1_freqsweep.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/m2mT_pos2_freqsweep.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/m3mT_pos1_freqsweep.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/m3mT_pos2_freqsweep.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/m4mT_pos1_freqsweep.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/m4mT_pos2_freqsweep.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/m5mT_pos1_freqsweep.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/m5mT_pos2_freqsweep.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/p1mT_pos1_freqsweep.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/p1mT_pos2_freqsweep.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/p2mT_pos1_freqsweep.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/p2mT_pos2_freqsweep.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/p3mT_pos1_freqsweep.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/p3mT_pos2_freqsweep.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/p4mT_pos1_freqsweep.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/p4mT_pos2_freqsweep.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/p5mT_pos1_freqsweep.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/p5mT_pos2_freqsweep.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/_00mT_pos1and2.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/m3_50mT_extracted_both.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/m3_raw_pos1_50mT.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/m3_raw_pos2_50mT.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/n01mT_pos1and2.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/n02mT_pos1and2.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/n03mT_pos1and2.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/n04mT_pos1and2.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/n05mT_pos1and2.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/p05mT_pos1and2.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/p06mT_pos1and2.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/p07mT_pos1and2.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/p08mT_pos1and2.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/p09mT_pos1and2.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/p10mT_pos1and2.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/p11mT_pos1and2.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/p12mT_pos1and2.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/p13mT_pos1and2.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/p14mT_pos1and2.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/p15mT_pos1and2.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/test_Export_data_to_ASCII.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/test_export_data_to_Clipboard.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/29052017_nrcl/m1_extracted_both.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/29052017_nrcl/m1_raw_pos1.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/29052017_nrcl/m1_raw_pos2.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/29052017_nrcl/m2_extracted_both.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/29052017_nrcl/m2_raw_pos1.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/29052017_nrcl/m2_raw_pos2.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/29052017_nrcl/m3_extracted_both.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/29052017_nrcl/m3_raw_pos1.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/29052017_nrcl/m3_raw_pos2.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/30052017_nrcl/m2_extracted_both.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/30052017_nrcl/m2_raw_pos1.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/30052017_nrcl/m2_raw_pos2.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/30052017_nrcl/m3_extracted_both.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/30052017_nrcl/m3_raw_pos1.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/30052017_nrcl/m3_raw_pos2.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/30052017_nrcl/m4_extracted_both.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/30052017_nrcl/m4_raw_pos1.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/30052017_nrcl/m4_raw_pos2.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/30052017_nrcl/m5_extracted_both.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/30052017_nrcl/m5_raw_pos1.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/30052017_nrcl/m5_raw_pos2.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/30052017_nrcl/m6_-10mT_extracted_both.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/30052017_nrcl/m6_10mT_extracted_both.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_caustics.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_cbls_spec.py</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_cbls_spec_2.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_cbls_tests.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_field_sweep.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_freq_sweep.py</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_full_cbls.py</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_moke_data.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_nrcl.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_raw_spec_caustics.py</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_raw_spec_caustics_comb.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_raw_spec_fieldsw.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_raw_spec_freqsw.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_sw_pulse.py</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_theory_caustics.py</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_theory_dispersions.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_tr_data.py</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -390,20 +403,8 @@
       </FILE-GROUP>
     </UpdatedFiles>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.fit_freq_sweep">
-    <configuration default="false" name="plot_raw_spec_freqsw" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.plot_freq_sweep_ch2700">
+    <configuration default="false" name="calc_oersted_new" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -416,13 +417,12 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="analysis-bls" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plot_raw_spec_freqsw.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/calc_oersted_new.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="plot_sw_pulse" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="plot_freq_sweep" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -435,13 +435,12 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="analysis-bls" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plot_sw_pulse.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plot_freq_sweep.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="plot_lukas_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="plot_freq_sweep_ch2700" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -454,13 +453,12 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="analysis-bls" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plot_lukas_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plot_freq_sweep_ch2700.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="fit_field_sweep" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="plot_moke_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -473,13 +471,12 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="analysis-bls" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fit_field_sweep.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plot_moke_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="fit_freq_sweep" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="plot_line_scan_ch2700" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -492,10 +489,9 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="analysis-bls" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fit_freq_sweep.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plot_line_scan_ch2700.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -516,13 +512,6 @@
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
-      <node-interpreter value="project" />
-      <working-dir value="" />
-      <envs />
-      <scope-kind value="ALL" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
@@ -578,7 +567,6 @@
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="Tox" factoryName="Tox">
@@ -608,6 +596,26 @@
       <scripts />
       <node-interpreter value="project" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="analysis-bls" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -641,10 +649,15 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="analysis-bls" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_regexPattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;.&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -658,9 +671,16 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="analysis-bls" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;.&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="py.test">
@@ -674,10 +694,18 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="analysis-bls" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;.&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="analysis_main" type="PythonConfigurationType" factoryName="Python">
@@ -696,86 +724,25 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/analysis_main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="phase_res_plot_rac2_5p1GHz_v2" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="analysis-bls" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/phase_res_plot_rac2_5p1GHz_v2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="plot_tr_data" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="analysis-bls" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plot_tr_data.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <list size="8">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.analysis_main" />
-      <item index="1" class="java.lang.String" itemvalue="Python.phase_res_plot_rac2_5p1GHz_v2" />
-      <item index="2" class="java.lang.String" itemvalue="Python.plot_tr_data" />
-      <item index="3" class="java.lang.String" itemvalue="Python.plot_raw_spec_freqsw" />
-      <item index="4" class="java.lang.String" itemvalue="Python.plot_sw_pulse" />
-      <item index="5" class="java.lang.String" itemvalue="Python.plot_lukas_test" />
-      <item index="6" class="java.lang.String" itemvalue="Python.fit_field_sweep" />
-      <item index="7" class="java.lang.String" itemvalue="Python.fit_freq_sweep" />
+      <item index="1" class="java.lang.String" itemvalue="Python.calc_oersted_new" />
+      <item index="2" class="java.lang.String" itemvalue="Python.plot_freq_sweep" />
+      <item index="3" class="java.lang.String" itemvalue="Python.plot_freq_sweep_ch2700" />
+      <item index="4" class="java.lang.String" itemvalue="Python.plot_moke_data" />
+      <item index="5" class="java.lang.String" itemvalue="Python.plot_line_scan_ch2700" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.fit_freq_sweep" />
-        <item index="1" class="java.lang.String" itemvalue="Python.fit_field_sweep" />
-        <item index="2" class="java.lang.String" itemvalue="Python.plot_lukas_test" />
-        <item index="3" class="java.lang.String" itemvalue="Python.plot_sw_pulse" />
-        <item index="4" class="java.lang.String" itemvalue="Python.plot_raw_spec_freqsw" />
+        <item index="0" class="java.lang.String" itemvalue="Python.plot_freq_sweep_ch2700" />
+        <item index="1" class="java.lang.String" itemvalue="Python.plot_line_scan_ch2700" />
+        <item index="2" class="java.lang.String" itemvalue="Python.plot_moke_data" />
+        <item index="3" class="java.lang.String" itemvalue="Python.plot_freq_sweep" />
+        <item index="4" class="java.lang.String" itemvalue="Python.calc_oersted_new" />
       </list>
     </recent_temporary>
-    <configuration default="true" type="tests" factoryName="Attests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="analysis-bls" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -809,143 +776,44 @@
       <option name="project" value="LOCAL" />
       <updated>1490687667548</updated>
     </task>
-    <task id="LOCAL-00004" summary="updated plotting function for 2d and raw&#10;added fitting to the 2d function&#10;x axes now in real distance instead of points">
-      <created>1490734147010</created>
+    <task id="LOCAL-00004" summary="added functionality to plot raw spectra">
+      <created>1490703438810</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1490734147010</updated>
+      <updated>1490703438810</updated>
     </task>
-    <task id="LOCAL-00005" summary="some adjustments to fit particular data">
-      <created>1490887679777</created>
+    <task id="LOCAL-00005" summary="new field calc to crosscheck the values">
+      <created>1491825275564</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1490887679777</updated>
+      <updated>1491825275564</updated>
     </task>
-    <task id="LOCAL-00006" summary="correction for proper wave length calculation&#10;new plotting script for plotting 3 measurements together">
-      <created>1490971451169</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1490971451170</updated>
-    </task>
-    <task id="LOCAL-00007" summary="new scipts for combined plots, new function to fit and plot for the variable width samples">
-      <created>1491231477145</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1491231477145</updated>
-    </task>
-    <task id="LOCAL-00008" summary="new scipts for combined plots, new function to fit and plot for &#10;the variable width samples">
-      <created>1491300371194</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1491300371194</updated>
-    </task>
-    <task id="LOCAL-00009" summary="new scripts for oersted field calculation">
-      <created>1491562738188</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1491562738188</updated>
-    </task>
-    <task id="LOCAL-00010" summary="new script for tr data analysis plot">
-      <created>1492689879781</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1492689879781</updated>
-    </task>
-    <task id="LOCAL-00011" summary="analysis scripts for nrcl">
-      <created>1496315767996</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1496315767996</updated>
-    </task>
-    <task id="LOCAL-00012" summary="analysis scripts for nrcl (caustics, field sweeps)">
-      <created>1496758570780</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1496758570780</updated>
-    </task>
-    <task id="LOCAL-00013" summary="analysis scripts for nrcl (caustics, field sweeps)">
-      <created>1499077496402</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1499077496402</updated>
-    </task>
-    <task id="LOCAL-00014" summary="data of the measurements">
-      <created>1499077560575</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1499077560575</updated>
-    </task>
-    <task id="LOCAL-00015" summary="small tweaks to scripts">
-      <created>1499333027513</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1499333027513</updated>
-    </task>
-    <task id="LOCAL-00016" summary="small tweaks to scripts">
-      <created>1501341596099</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1501341596099</updated>
-    </task>
-    <task id="LOCAL-00017" summary="New Script to plot&amp;fit the spectrum from conventional BLS">
-      <created>1501691984812</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1501691984812</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Updated Script to plot&amp;fit the spectrum from conventional BLS">
-      <created>1501764870665</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1501764870665</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Updated scripts to plot&amp;fit the spectra from conventional BLS">
-      <created>1501851783580</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1501851783580</updated>
-    </task>
-    <option name="localTasksCounter" value="20" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1876" height="1392" extended-state="0" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19752422" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32524273" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277645" sideWeight="0.5028011" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32373273" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1662689" sideWeight="0.5944056" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277645" sideWeight="0.49719888" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32258064" sideWeight="0.496875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39777246" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852563" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -977,47 +845,50 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new analysis scripts" />
-    <MESSAGE value="updated plotting function for 2d and raw&#10;added fitting to the 2d function&#10;x axes now in real distance instead of points" />
-    <MESSAGE value="some adjustments to fit particular data" />
-    <MESSAGE value="correction for proper wave length calculation&#10;new plotting script for plotting 3 measurements together" />
-    <MESSAGE value="new scipts for combined plots, new function to fit and plot for the variable width samples" />
-    <MESSAGE value="new scipts for combined plots, new function to fit and plot for &#10;the variable width samples" />
-    <MESSAGE value="new scripts for oersted field calculation" />
-    <MESSAGE value="new script for tr data analysis plot" />
-    <MESSAGE value="analysis scripts for nrcl" />
-    <MESSAGE value="analysis scripts for nrcl (caustics, field sweeps)" />
-    <MESSAGE value="data of the measurements" />
-    <MESSAGE value="small tweaks to scripts" />
-    <MESSAGE value="New Script to plot&amp;fit the spectrum from conventional BLS" />
-    <MESSAGE value="Updated Script to plot&amp;fit the spectrum from conventional BLS" />
-    <MESSAGE value="Updated scripts to plot&amp;fit the spectra from conventional BLS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated scripts to plot&amp;fit the spectra from conventional BLS" />
+    <MESSAGE value="added functionality to plot raw spectra" />
+    <MESSAGE value="new field calc to crosscheck the values" />
+    <option name="LAST_COMMIT_MESSAGE" value="new field calc to crosscheck the values" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="4" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/plotting_functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        <state relative-caret-position="4981">
+          <caret line="298" column="44" lean-forward="false" selection-start-line="298" selection-start-column="44" selection-end-line="298" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calc_oersted_new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#109#119#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/extract_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="39" column="37" lean-forward="false" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+        <state relative-caret-position="612">
+          <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/analysis_main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="29" column="39" lean-forward="false" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+        <state relative-caret-position="833">
+          <caret line="50" column="49" lean-forward="false" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#25#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1025,20 +896,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/extract_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
+        <state relative-caret-position="561">
           <caret line="36" column="32" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/analysis_main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="476">
           <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#25#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1046,6 +924,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="61" lean-forward="false" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1053,6 +932,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" column="19" lean-forward="false" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1060,6 +942,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#25#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1067,6 +952,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1074,6 +960,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="40" column="19" lean-forward="false" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1081,6 +970,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="26" column="47" lean-forward="false" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#25#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1088,6 +980,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1095,6 +988,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" column="19" lean-forward="false" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1102,6 +998,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="26" column="47" lean-forward="true" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#25#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1109,6 +1008,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1003">
           <caret line="62" column="18" lean-forward="false" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1116,6 +1016,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="36" column="36" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1123,6 +1026,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#25#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1130,6 +1036,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1137,6 +1044,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="56" lean-forward="true" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1144,230 +1054,126 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#25#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/m_data/26-10-2016/26102016_m4_fit_params.txt" />
-    <entry file="file://$PROJECT_DIR$/phase_res_plot_rac2_5p1GHz.py">
+    <entry file="file://$PROJECT_DIR$/analysis_main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calc_field.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calc_oersted.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calc_oersted_new.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-588">
-          <caret line="8" column="88" lean-forward="false" selection-start-line="8" selection-start-column="88" selection-end-line="8" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plot_nrcl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phase_res_plot_rac2_5p1GHz_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3087">
-          <caret line="150" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/caustics_3.5 GHz.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plot_raw_spec.py" />
-    <entry file="file://$PROJECT_DIR$/plot_field_sweep.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="987">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="49" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plot_freq_sweep.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plot_caustics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phase_res_plot_rfc1_6GHz.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2268">
-          <caret line="111" column="71" lean-forward="false" selection-start-line="111" selection-start-column="54" selection-end-line="111" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotting_functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="105" column="35" lean-forward="false" selection-start-line="105" selection-start-column="35" selection-end-line="105" selection-end-column="35" />
+        <state relative-caret-position="833">
+          <caret line="50" column="49" lean-forward="false" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#25#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/extract_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="612">
+          <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
           <folding>
             <element signature="e#0#18#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/analysis_main.py">
+    <entry file="file://$PROJECT_DIR$/calc_oersted.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1029">
-          <caret line="50" column="34" lean-forward="false" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plot_raw_spec_fieldsw.py">
+    <entry file="file://$PROJECT_DIR$/calc_field.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        <state relative-caret-position="170">
+          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calc_oersted_new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#109#119#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plotting_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="298" column="44" lean-forward="false" selection-start-line="298" selection-start-column="44" selection-end-line="298" selection-end-column="44" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plot_sw_pulse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="60" column="81" lean-forward="false" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plot_raw_spec_caustics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2142">
-          <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plot_cbls_spec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2559">
-          <caret line="219" column="0" lean-forward="false" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plot_cbls_sptests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plot_tr_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plot_raw_spec_freqsw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plot_lukas_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="50" column="59" lean-forward="false" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plot_full_cbls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plot_cbls_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="10" selection-end-column="97" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plot_cbls_spec_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fit_field_sweep.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="116" column="70" lean-forward="true" selection-start-line="115" selection-start-column="0" selection-end-line="116" selection-end-column="70" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fit_freq_sweep.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        <state relative-caret-position="272">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plot_freq_sweep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m_data/CFB_Ir_CFB/CH2700_CFB10nm_Ir_CFB10nm_Ir_2nmcap.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plot_moke_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="46" column="10" lean-forward="true" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plot_field_sweep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plot_line_scan_ch2700.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="46" column="44" lean-forward="false" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plot_freq_sweep_ch2700.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="28" column="66" lean-forward="true" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

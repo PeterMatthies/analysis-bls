@@ -41,7 +41,7 @@ plt.xticks(rotation=45)
 mark_inset(ax1, ax2, loc1=3, loc2=2, fc="none", ec="0.5")
 
 fig1.tight_layout()
-save_name = 'easy_axis_loop.pdf'
+save_name = 'easy_axis_loop.png'
 plt.legend()
-plt.savefig('./output_pics/nrcl/'+save_name, format='pdf', dpi=100)
+plt.savefig('./output_pics/nrcl/'+save_name, format='png', dpi=100)
 plt.show()
