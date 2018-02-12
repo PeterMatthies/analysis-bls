@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e4b2f94-fb04-4071-a07e-c3278e33cde4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plot_freq_sweep_ch2700.py" afterPath="$PROJECT_DIR$/plot_freq_sweep_ch2700.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plot_rf_field_sweep.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/analysis-bls.iml" afterPath="$PROJECT_DIR$/.idea/analysis-bls.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,27 +15,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/analysis-bls$plot_line_scan_ch2700.coverage" NAME="plot_line_scan_ch2700 Coverage Results" MODIFIED="1516807924959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/analysis-bls$plot_freq_sweep.coverage" NAME="plot_freq_sweep Coverage Results" MODIFIED="1516798909646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/analysis-bls$plot_moke_data.coverage" NAME="plot_moke_data Coverage Results" MODIFIED="1516802474379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/analysis-bls$plot_kerr_data.coverage" NAME="plot_kerr_data Coverage Results" MODIFIED="1517215558774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/analysis-bls$plot_freq_sweep_ch2700.coverage" NAME="plot_freq_sweep_ch2700 Coverage Results" MODIFIED="1517470271731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/analysis-bls$calc_oersted_new.coverage" NAME="calc_oersted_new Coverage Results" MODIFIED="1516798657143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/analysis-bls$plot_line_scan_ch2700.coverage" NAME="plot_line_scan_ch2700 Coverage Results" MODIFIED="1516807924959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/analysis-bls$plot_kerr_data.coverage" NAME="plot_kerr_data Coverage Results" MODIFIED="1517215558774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/analysis-bls$plot_2d_map_ch2700.coverage" NAME="plot_2d_map_ch2700 Coverage Results" MODIFIED="1517327349248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/analysis-bls$analysis_main.coverage" NAME="analysis_main Coverage Results" MODIFIED="1490701101563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/analysis-bls$plot_freq_sweep.coverage" NAME="plot_freq_sweep Coverage Results" MODIFIED="1516798909646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/analysis-bls$plot_raw_spec_caustics_comb.coverage" NAME="plot_raw_spec_caustics_comb Coverage Results" MODIFIED="1517326344771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/analysis-bls$plot_freq_sweep_ch2700.coverage" NAME="plot_freq_sweep_ch2700 Coverage Results" MODIFIED="1517470271731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="plot_freq_sweep_ch2700.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="plot_freq_sweep_ch2700.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plot_freq_sweep_ch2700.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+            <state relative-caret-position="115">
+              <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -44,7 +45,7 @@
       <file leaf-file-name="plot_raw_spec_caustics.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plot_raw_spec_caustics.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1494">
+            <state relative-caret-position="-939">
               <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -53,14 +54,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plot_2d_map_ch2700.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plot_2d_map_ch2700.py">
+      <file leaf-file-name="plot_rf_field_sweep.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/plot_rf_field_sweep.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1207">
-              <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+            <state relative-caret-position="165">
+              <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plot_field_sweep.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plot_field_sweep.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="81" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plot_2d_map_ch2700.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plot_2d_map_ch2700.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -68,20 +89,8 @@
       <file leaf-file-name="plot_raw_spec_caustics_comb.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plot_raw_spec_caustics_comb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
+            <state relative-caret-position="512">
               <caret line="198" column="43" lean-forward="false" selection-start-line="198" selection-start-column="43" selection-end-line="198" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plot_line_scan_ch2700.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plot_line_scan_ch2700.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="46" column="44" lean-forward="false" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -113,8 +122,9 @@
         <option value="$PROJECT_DIR$/plot_moke_data.py" />
         <option value="$PROJECT_DIR$/plot_line_scan_ch2700.py" />
         <option value="$PROJECT_DIR$/plot_kerr_data.py" />
-        <option value="$PROJECT_DIR$/plot_2d_map_ch2700.py" />
         <option value="$PROJECT_DIR$/plot_freq_sweep_ch2700.py" />
+        <option value="$PROJECT_DIR$/plot_2d_map_ch2700.py" />
+        <option value="$PROJECT_DIR$/plot_rf_field_sweep.py" />
       </list>
     </option>
   </component>
@@ -124,11 +134,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="1000" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1366" />
+    <option name="height" value="745" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -148,48 +157,18 @@
     <panes>
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="analysis-bls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="analysis-bls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="analysis-bls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="analysis-bls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="m_data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="analysis-bls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="analysis-bls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="m_data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="30012018_ncrl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="analysis-bls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="analysis-bls" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="analysis-bls" type="b2602c69:ProjectViewProjectNode" />
+              <item name="analysis-bls" type="462c0819:PsiDirectoryNode" />
+              <item name="m_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -202,252 +181,39 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/analysis-bls.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/misc.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/calc_field.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/calc_oersted_new.py</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/fit_field_sweep.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/fit_freq_sweep.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/01062017_nrcl/field_values_m1.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/01062017_nrcl/field_values_m2.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/01062017_nrcl/m1_extracted_both.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/01062017_nrcl/m1_raw_pos1.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/01062017_nrcl/m1_raw_pos2.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/01062017_nrcl/m2_extracted_both.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/01062017_nrcl/m2_raw_pos1.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/01062017_nrcl/m2_raw_pos2.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/extracted/m7_3GHz_caustics.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/extracted/m7_3p5GHz_caustics.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/extracted/m7_4GHz_caustics.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/extracted/m7_4p5GHz_caustics.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/extracted/m7_5GHz_caustics.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/extracted/m7_5p5GHz_caustics.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/extracted/m7_6GHz_caustics.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/extracted/m7_pos_dim1.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/extracted/m7_pos_dim2.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/field_values_m2.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/m2_extracted_both.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/m2_raw_pos1.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/m2_raw_pos2.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/raw/m7_3GHz_closer.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/raw/m7_3GHz_further.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/raw/m7_3p5GHz_closer.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/raw/m7_3p5GHz_further.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/raw/m7_4GHz_closer.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/raw/m7_4GHz_further.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/raw/m7_4p5GHz_closer.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/raw/m7_4p5GHz_further.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/raw/m7_5GHz_closer.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/raw/m7_5GHz_further.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/raw/m7_5p5GHz_closer.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/raw/m7_5p5GHz_further.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/raw/m7_6GHz_closer.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/02062017_nrcl/raw/m7_6GHz_further.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/15102017_dispersions/CoFeBIrCoFeB-dispersion.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/15102017_dispersions/Isofrequency_3GHz-d1_10d2_10Ms1_1250Ms2_1250-CFB-Ir-CFB.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/15102017_dispersions/Isofrequency_3GHz-d1_6d2_6Ms1_800Ms2_800-Py-Cu-Py.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/15102017_dispersions/Isofrequency_4GHz-d1_10d2_10Ms1_1250Ms2_1250-CFB-Ir-CFB.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/15102017_dispersions/Isofrequency_4GHz-d1_6d2_6Ms1_800Ms2_800-Py-Cu-Py.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/15102017_dispersions/Isofrequency_5GHz-d1_10d2_10Ms1_1250Ms2_1250-CFB-Ir-CFB.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/15102017_dispersions/Isofrequency_5GHz-d1_6d2_6Ms1_800Ms2_800-Py-Cu-Py.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/15102017_dispersions/PyCuPy-dispersion.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/15102017_dispersions/PyCuPy-dispersion_1.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/00mT_pos1_freqsweep.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/00mT_pos2_freqsweep.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/m1mT_pos1_freqsweep.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/m1mT_pos2_freqsweep.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/m2mT_pos1_freqsweep.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/m2mT_pos2_freqsweep.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/m3mT_pos1_freqsweep.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/m3mT_pos2_freqsweep.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/m4mT_pos1_freqsweep.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/m4mT_pos2_freqsweep.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/m5mT_pos1_freqsweep.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/m5mT_pos2_freqsweep.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/p1mT_pos1_freqsweep.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/p1mT_pos2_freqsweep.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/p2mT_pos1_freqsweep.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/p2mT_pos2_freqsweep.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/p3mT_pos1_freqsweep.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/p3mT_pos2_freqsweep.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/p4mT_pos1_freqsweep.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/p4mT_pos2_freqsweep.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/p5mT_pos1_freqsweep.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/23052017_nrcl/p5mT_pos2_freqsweep.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/_00mT_pos1and2.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/m3_50mT_extracted_both.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/m3_raw_pos1_50mT.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/m3_raw_pos2_50mT.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/n01mT_pos1and2.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/n02mT_pos1and2.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/n03mT_pos1and2.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/n04mT_pos1and2.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/n05mT_pos1and2.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/p05mT_pos1and2.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/p06mT_pos1and2.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/p07mT_pos1and2.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/p08mT_pos1and2.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/p09mT_pos1and2.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/p10mT_pos1and2.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/p11mT_pos1and2.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/p12mT_pos1and2.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/p13mT_pos1and2.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/p14mT_pos1and2.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/p15mT_pos1and2.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/test_Export_data_to_ASCII.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/25052017_nrcl/test_export_data_to_Clipboard.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/29052017_nrcl/m1_extracted_both.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/29052017_nrcl/m1_raw_pos1.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/29052017_nrcl/m1_raw_pos2.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/29052017_nrcl/m2_extracted_both.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/29052017_nrcl/m2_raw_pos1.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/29052017_nrcl/m2_raw_pos2.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/29052017_nrcl/m3_extracted_both.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/29052017_nrcl/m3_raw_pos1.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/29052017_nrcl/m3_raw_pos2.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/30052017_nrcl/m2_extracted_both.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/30052017_nrcl/m2_raw_pos1.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/30052017_nrcl/m2_raw_pos2.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/30052017_nrcl/m3_extracted_both.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/30052017_nrcl/m3_raw_pos1.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/30052017_nrcl/m3_raw_pos2.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/30052017_nrcl/m4_extracted_both.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/30052017_nrcl/m4_raw_pos1.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/30052017_nrcl/m4_raw_pos2.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/30052017_nrcl/m5_extracted_both.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/30052017_nrcl/m5_raw_pos1.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/30052017_nrcl/m5_raw_pos2.dat</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/30052017_nrcl/m6_-10mT_extracted_both.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/m_data/30052017_nrcl/m6_10mT_extracted_both.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_caustics.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_cbls_spec.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_cbls_spec_2.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_cbls_tests.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_field_sweep.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_freq_sweep.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_full_cbls.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_moke_data.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_nrcl.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_raw_spec_caustics.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_raw_spec_caustics_comb.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_raw_spec_fieldsw.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_raw_spec_freqsw.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_sw_pulse.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_theory_caustics.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_theory_dispersions.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/plot_tr_data.py</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
-  <component name="RunManager" selected="Python.plot_freq_sweep_ch2700">
-    <configuration default="false" name="plot_freq_sweep_ch2700" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.plot_rf_field_sweep">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="analysis-bls" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="analysis_main" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -460,48 +226,13 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="analysis-bls" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plot_freq_sweep_ch2700.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/analysis_main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration default="false" name="plot_line_scan_ch2700" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="analysis-bls" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plot_line_scan_ch2700.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="plot_kerr_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="analysis-bls" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plot_kerr_data.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="plot_2d_map_ch2700" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="plot_2d_map_ch2700" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -517,9 +248,48 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plot_2d_map_ch2700.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration default="false" name="plot_raw_spec_caustics_comb" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="plot_freq_sweep_ch2700" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="analysis-bls" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plot_freq_sweep_ch2700.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="plot_kerr_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="analysis-bls" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plot_kerr_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="plot_raw_spec_caustics_comb" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -535,7 +305,28 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plot_raw_spec_caustics_comb.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="plot_rf_field_sweep" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="PYDEVD_LOAD_VALUES_ASYNC" value="True" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="analysis-bls" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plot_rf_field_sweep.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -594,24 +385,6 @@
       <option name="ADDITIONAL_ARGS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="analysis-bls" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="true" type="Tox" factoryName="Tox">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -623,15 +396,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <module name="analysis-bls" />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -751,44 +515,37 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="analysis_main" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="analysis-bls" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/analysis_main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.analysis_main" />
       <item index="1" class="java.lang.String" itemvalue="Python.plot_freq_sweep_ch2700" />
-      <item index="2" class="java.lang.String" itemvalue="Python.plot_line_scan_ch2700" />
-      <item index="3" class="java.lang.String" itemvalue="Python.plot_kerr_data" />
-      <item index="4" class="java.lang.String" itemvalue="Python.plot_2d_map_ch2700" />
-      <item index="5" class="java.lang.String" itemvalue="Python.plot_raw_spec_caustics_comb" />
+      <item index="2" class="java.lang.String" itemvalue="Python.plot_kerr_data" />
+      <item index="3" class="java.lang.String" itemvalue="Python.plot_2d_map_ch2700" />
+      <item index="4" class="java.lang.String" itemvalue="Python.plot_raw_spec_caustics_comb" />
+      <item index="5" class="java.lang.String" itemvalue="Python.plot_rf_field_sweep" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.plot_freq_sweep_ch2700" />
-        <item index="1" class="java.lang.String" itemvalue="Python.plot_2d_map_ch2700" />
-        <item index="2" class="java.lang.String" itemvalue="Python.plot_raw_spec_caustics_comb" />
-        <item index="3" class="java.lang.String" itemvalue="Python.plot_kerr_data" />
-        <item index="4" class="java.lang.String" itemvalue="Python.plot_line_scan_ch2700" />
+        <item index="0" class="java.lang.String" itemvalue="Python.plot_rf_field_sweep" />
+        <item index="1" class="java.lang.String" itemvalue="Python.plot_freq_sweep_ch2700" />
+        <item index="2" class="java.lang.String" itemvalue="Python.plot_2d_map_ch2700" />
+        <item index="3" class="java.lang.String" itemvalue="Python.plot_raw_spec_caustics_comb" />
+        <item index="4" class="java.lang.String" itemvalue="Python.plot_kerr_data" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -851,20 +608,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="0" y="23" width="1366" height="745" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32524273" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32373273" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32258064" sideWeight="0.496875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293461" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="0" y="0" width="274" height="487" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22307692" sideWeight="0.496875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293919" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21450152" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="false" show_stripe_button="false" weight="0.49779248" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="0" y="-1001" width="1280" height="1001" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -895,7 +655,7 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -912,11 +672,94 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/plot_2d_map_ch2700.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plot_raw_spec_caustics_comb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2940">
+          <caret line="198" column="43" lean-forward="false" selection-start-line="198" selection-start-column="43" selection-end-line="198" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plot_line_scan_ch2700.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="46" column="44" lean-forward="false" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plot_kerr_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="36" column="30" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plot_freq_sweep_ch2700.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plot_raw_spec_caustics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plot_raw_spec_caustics_comb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2940">
+          <caret line="198" column="43" lean-forward="false" selection-start-line="198" selection-start-column="43" selection-end-line="198" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plot_line_scan_ch2700.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="46" column="44" lean-forward="false" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plot_2d_map_ch2700.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/plotting_functions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4981">
           <caret line="298" column="44" lean-forward="false" selection-start-line="298" selection-start-column="44" selection-end-line="298" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -924,9 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#109#119#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -934,9 +774,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -944,9 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
           <caret line="50" column="49" lean-forward="false" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -954,7 +788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -962,9 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="36" column="32" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -972,9 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -982,7 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="61" lean-forward="false" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -990,9 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" column="19" lean-forward="false" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1000,9 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1010,7 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1018,9 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="40" column="19" lean-forward="false" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1028,9 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="26" column="47" lean-forward="false" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1038,7 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1046,9 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" column="19" lean-forward="false" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1056,9 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="26" column="47" lean-forward="true" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1066,7 +872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1003">
           <caret line="62" column="18" lean-forward="false" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1074,9 +879,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="36" column="36" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1084,9 +886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1094,7 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1102,9 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="56" lean-forward="true" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1112,9 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1122,9 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
           <caret line="50" column="49" lean-forward="false" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1132,9 +921,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1156,9 +942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#109#119#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1166,7 +949,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
           <caret line="298" column="44" lean-forward="false" selection-start-line="298" selection-start-column="44" selection-end-line="298" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1174,9 +956,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1184,72 +963,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/m_data/CFB_Ir_CFB/CH2700_CFB10nm_Ir_CFB10nm_Ir_2nmcap.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plot_field_sweep.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="74" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m_data/kerr_ch2700/field_calib.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/m_data/CFB_Ir_CFB/CH2700_CFB10nm_Ir_CFB10nm_Ir_2nmcap.dat" />
+    <entry file="file://$PROJECT_DIR$/m_data/kerr_ch2700/field_calib.txt" />
     <entry file="file://$PROJECT_DIR$/plot_cbls_spec.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="45" column="17" lean-forward="false" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plot_moke_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="46" column="10" lean-forward="false" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+        <state relative-caret-position="129">
+          <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plot_line_scan_ch2700.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="46" column="44" lean-forward="false" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
           <folding>
             <element signature="e#0#18#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plot_raw_spec_caustics_comb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="198" column="43" lean-forward="false" selection-start-line="198" selection-start-column="43" selection-end-line="198" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plot_kerr_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="36" column="30" lean-forward="false" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="480">
+          <caret line="35" column="31" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plot_line_scan_ch2700.py">
+    <entry file="file://$PROJECT_DIR$/plot_freq_sweep_ch2700.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="46" column="44" lean-forward="false" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+        <state relative-caret-position="115">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -1258,7 +1022,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plot_raw_spec_caustics.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1494">
+        <state relative-caret-position="-939">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -1268,28 +1032,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plot_2d_map_ch2700.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="705">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plot_raw_spec_caustics_comb.py">
+    <entry file="file://$PROJECT_DIR$/plot_field_sweep.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="198" column="43" lean-forward="false" selection-start-line="198" selection-start-column="43" selection-end-line="198" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="335">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="81" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plot_freq_sweep_ch2700.py">
+    <entry file="file://$PROJECT_DIR$/plot_rf_field_sweep.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        <state relative-caret-position="165">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
